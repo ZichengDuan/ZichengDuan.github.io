@@ -8,16 +8,6 @@
   font-style: normal;
 }
 
-@font-face{
-  font-family: 'alibaba';
-  src:
-  url('fonts/Alibaba-PuHuiTi-Regular.ttf')
-}
-@font-face{
-  font-family: 'cola';
-  src:
-  url('fonts/Coca-ColaCareFontKaiTi.ttf')
-}
 
 
 .ace-icon {
