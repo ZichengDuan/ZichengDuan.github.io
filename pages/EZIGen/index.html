@@ -189,7 +189,7 @@
       <div class="column is-four-fifths">
         <h2 class="title is-3">Abstract</h2>
         <div class="content has-text-justified">
-          Zero-shot subject-driven image generation aims to produce images that incorporate a subject from a given example image. The challenge lies in preserving the subject's identity while aligning with the text prompt, which often requires modifying certain aspects of the subject's appearance. Despite advancements in diffusion model based methods, existing approaches still struggle to balance identity preservation with text prompt alignment. In this study, we conducted an in-depth investigation into this issue and uncovered key insights for achieving effective identity preservation while maintaining a strong balance. Our key findings include: (1) the design of the subject image encoder significantly impacts identity preservation quality, and (2) generating an initial layout is crucial for both text prompt alignment and identity preservation. Building on these insights, we introduce a new approach called IterGen, which employs two main strategies: a carefully crafted subject image encoder based on the UNet architecture of the pretrained Stable Diffusion model to ensure high-quality identity transfer, and a process that iteratively refines the initial image layout. Through these strategies, IterGen achieves state-of-the-art results on multiple subject-driven benchmarks with a unified model and 100 times less training data.
+          Zero-shot subject-driven image generation aims to produce images that incorporate a subject from a given example image. The challenge lies in preserving the subject's identity while aligning with the text prompt, which often requires modifying certain aspects of the subject's appearance. Despite advancements in diffusion model based methods, existing approaches still struggle to balance identity preservation with text prompt alignment. In this study, we conducted an in-depth investigation into this issue and uncovered key insights for achieving effective identity preservation while maintaining a strong balance. Our key findings include: (1) the design of the subject image encoder significantly impacts identity preservation quality, and (2) generating an initial layout is crucial for both text alignment and identity preservation. Building on these insights, we introduce a new approach called EZIGen, which employs two main strategies: a carefully crafted subject image Encoder based on the UNet architecture of the pretrained Stable Diffusion model to ensure high-quality identity transfer, following a process that decouples the guidance stages and iteratively refines the initial image layout. Through these strategies, EZIGen achieves state-of-the-art results on multiple subject-driven benchmarks with a unified model and 100 times less training data.
           </p>
         </div>
       </div>
@@ -211,7 +211,7 @@
           class="body"
           alt="Interpolate start reference image. " width="100%"/>
         </div>
-        <p>Illustration of the proposed system. Starting from <span style="color: red"><b>(A)</b></span> Subject Feature Extraction module, we extract a set of intermediate latent features during the simulated late denoising process of the given noisy subject image using our fixed Reference UNet, we then regard these features as offline Subject Guidance. Then we showcase the decoupled generation process <span style="color: red"><b>(B.1)</b></span> Layout Generation Process and <span style="color: red"><b>(B.2)</b></span> Appearance Transfer Process, wherein <span style="color: red"><b>(B.1)</b></span> we first interrupt the text-guided generation process to obtain a layout latent at a middle timestep <i>t</i>, then in <span style="color: red"><b>(B.2)</b></span>, we incorporate the offline Subject Guidance to transfer the subject appearance into the layout latent in the rest of the timesteps. Finally, to achieve a complete transfer, we use the <span style="color: red"><b>(C)</b></span> Iterative Generation mechanism to repeat the Appearance Transfer Process by adding noise to the generated image, which continues to repeat for <i>N</i> times until satisfaction.</p>
+        <p>Illustration of the proposed system. Starting from Encoding and Injecting subject feature, where we extract a set of intermediate latent features during the simulated late denoising process of the given noisy subject image using our fixed Reference UNet, we then regard these features as offline Subject Guidance and inject it to the Main UNet via a learnable adapter. Then we showcase how we decouple the generation process into the Layout Generation Process and Appearance Transfer Process. We first leverage the text prompt as Text Guidance using the original text-guided diffusion process to obtain a layout latent at a middle timestep <i>t</i>, then we incorporate the offline Subject Guidance to transfer the subject appearance into the layout latent in the rest of the timesteps. Finally, to achieve a complete transfer, we develop the Iterative Appearance Transfer mechanism to repeat the Appearance Transfer Process by adding noise to the generated image, which continues to repeat for <i>N</i> times until satisfaction.</p>
       </div>
       </div>
       </div>
@@ -244,7 +244,7 @@
         <div class="content">
           <h3 class="title is-4">Results on DreamBench dataset </h3>
           <div style="text-align: center;">
-            <img src="static/images/qualitative comparison.png"
+            <img src="static/images/qualitative_comparison.jpg"
             class="body"
             alt="Interpolate start reference image. " width="100%"/>
           </div>
@@ -260,7 +260,7 @@
         <div class="content">
           <h3 class="title is-4">Results on DreamEdit dataset</h3>
           <div style="text-align: center;">
-            <img src="static/images/edit_demo.png"
+            <img src="static/images/compare_edit_qualitative.jpg"
                  class="body"
                  alt="Interpolate start reference image."
                  width="100%"/>
@@ -294,7 +294,7 @@
 
     <div class="columns is-centered">
       <div class="column is-full-width">
-        <h2 class="title is-3">Object Interpolation</h2>
+        <h2 class="title is-3">Subjects Interpolation</h2>
 
         <!-- Interpolating. -->
         <div class="content has-text-justified">
