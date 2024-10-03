@@ -137,9 +137,8 @@
   <div class="container is-max-desktop">
     <div class="hero-body">
       <div style="text-align: center;">
-        <img src="static/images/first3.jpg"
-                 class="teaser"
-                 alt="Interpolate start reference image." width="90%"/>
+        <img src="static/images/first4.jpg"
+                 class="teaser" width="90%"/>
       </div>
       
     </div>
@@ -160,10 +159,10 @@
     <div class="scaled-container" style="overflow: hidden;">
       <div class="scale-up">
         <div class="hero-body is-flex is-justify-content-space-around">
-          <video id="teaser1" autoplay controls muted loop playsinline width="33%">
+          <video id="teaser3" autoplay controls muted loop playsinline width="33%">
             <source src="static/videos/generation.mp4" type="video/mp4">
           </video>
-          <video id="teaser1" autoplay controls muted loop playsinline width="33%">
+          <video id="teaser2" autoplay controls muted loop playsinline width="33%">
             <source src="static/videos/editing.mp4" type="video/mp4">
           </video>
           <video id="teaser1" autoplay controls muted loop playsinline width="33%">
@@ -189,7 +188,7 @@
       <div class="column is-four-fifths">
         <h2 class="title is-3">Abstract</h2>
         <div class="content has-text-justified">
-          Zero-shot subject-driven image generation aims to produce images that incorporate a subject from a given example image. The challenge lies in preserving the subject's identity while aligning with the text prompt, which often requires modifying certain aspects of the subject's appearance. Despite advancements in diffusion model based methods, existing approaches still struggle to balance identity preservation with text prompt alignment. In this study, we conducted an in-depth investigation into this issue and uncovered key insights for achieving effective identity preservation while maintaining a strong balance. Our key findings include: (1) the design of the subject image encoder significantly impacts identity preservation quality, and (2) generating an initial layout is crucial for both text alignment and identity preservation. Building on these insights, we introduce a new approach called EZIGen, which employs two main strategies: a carefully crafted subject image Encoder based on the UNet architecture of the pretrained Stable Diffusion model to ensure high-quality identity transfer, following a process that decouples the guidance stages and iteratively refines the initial image layout. Through these strategies, EZIGen achieves state-of-the-art results on multiple subject-driven benchmarks with a unified model and 100 times less training data.
+          Zero-shot subject-driven image generation aims to produce images that incorporate a subject from a given example image. The challenge lies in preserving the subject's identity while aligning with the text prompt that often requires modifying certain aspects of the subject's appearance. Despite advancements in diffusion model based methods, existing approaches still struggle to balance identity preservation with text prompt alignment. In this study, we conducted an in-depth investigation into this issue and uncovered key insights for achieving effective identity preservation while maintaining a strong balance. Our key findings include: (1) the design of the subject image encoder significantly impacts identity preservation quality, and (2) separating text and subject guidance is crucial for both text alignment and identity preservation. Building on these insights, we introduce a new approach called EZIGen, which employs two main strategies: a carefully crafted subject image Encoder based on the pretrained UNet of the Stable Diffusion model to ensure high-quality identity transfer, following a process that decouples the guidance stages and iteratively refines the initial image layout. Through these strategies, EZIGen achieves state-of-the-art results on multiple subject-driven benchmarks with a unified model and 100 times less training data. 
           </p>
         </div>
       </div>
@@ -334,31 +333,25 @@
         <div class="content">
           <div style="text-align: center;"><h2 class="title is-3">More Visualization Results</h2></div>
           <h3 class="title is-4">Subject-Driven Generation</h2>
-            <img src="static/images/more_results.png"
+            <img src="static/images/more_results.jpg"
             class="body"
             alt="Interpolate start reference image." width="100%"/>
-          <!-- <p>
-            Using <i>nerfies</i> you can create fun visual effects. This Dolly zoom effect
-            would be impossible without nerfies since it would require going through a wall.
-          </p> -->
 
           <h3 class="title is-4">Subject-Driven Editing</h2>
-            <img src="static/images/more_edit.png"
+            <img src="static/images/more_edit.jpg"
             class="body"
             alt="Interpolate start reference image." width="100%"/>
-          <!-- <p>
-            Using <i>nerfies</i> you can create fun visual effects. This Dolly zoom effect
-            would be impossible without nerfies since it would require going through a wall.
-          </p> -->
+         
 
           <h3 class="title is-4">Human Content Generation</h2>
-            <img src="static/images/more_human.png"
+            <img src="static/images/more_human.jpg"
             class="body"
             alt="Interpolate start reference image." width="100%"/>
-          <!-- <p>
-            Using <i>nerfies</i> you can create fun visual effects. This Dolly zoom effect
-            would be impossible without nerfies since it would require going through a wall.
-          </p> -->
+
+          <h3 class="title is-4">Subject Interpolation</h2>
+            <img src="static/images/interpolation.jpg"
+            class="body"
+            alt="Interpolate start reference image." width="100%"/>
         </div>
       </div>
     </div>
@@ -367,18 +360,6 @@
   </div>
 </section>
 
-<!-- 
-<section class="section" id="BibTeX">
-  <div class="container is-max-desktop content">
-    <h2 class="title">BibTeX</h2>
-    <pre><code>@article{park2021nerfies,
-  author    = {Park, Keunhong and Sinha, Utkarsh and Barron, Jonathan T. and Bouaziz, Sofien and Goldman, Dan B and Seitz, Steven M. and Martin-Brualla, Ricardo},
-  title     = {Nerfies: Deformable Neural Radiance Fields},
-  journal   = {ICCV},
-  year      = {2021},
-}</code></pre>
-  </div>
-</section> -->
 
 
 <footer class="footer">
@@ -412,9 +393,4 @@
     </div>
   </div>
 </footer>
-<div class="content has-text-centered">
-  <script type='text/javascript' src='https://www.freevisitorcounters.com/auth.php?id=08bc533cfc247ea177ea6a414fd04fc0838daa3a'></script>
-  <script type="text/javascript" src="https://www.freevisitorcounters.com/en/home/counter/1232035/t/3"></script>
-  </div>
-</body>
 </html>
