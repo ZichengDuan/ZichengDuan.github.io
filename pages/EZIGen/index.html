@@ -137,7 +137,7 @@
   <div class="container is-max-desktop">
     <div class="hero-body">
       <div style="text-align: center;">
-        <img src="static/images/first5.jpg"
+        <img src="static/images/teaser_large.png"
                  class="teaser" width="100%"/>
       </div>
       
@@ -149,11 +149,11 @@
 </section>
 
 
+<!-- <br>
 <br>
-<br>
-<br>
+<br> -->
 
-
+<!-- 
 <section class="hero teaser">
   <div class="container">
     <div class="scaled-container" style="overflow: hidden;">
@@ -173,9 +173,9 @@
       </div>
     </div>
   </div>
-</section>
+</section> -->
 
-<br>
+<!-- <br> -->
 
 
 
@@ -188,7 +188,7 @@
       <div class="column is-four-fifths">
         <h2 class="title is-3">Abstract</h2>
         <div class="content has-text-justified">
-          Zero-shot personalized image generation models aim to produce images that align with both a given text prompt and subject image, requiring the model to effectively incorporate both sources of guidance. However, existing methods often struggle to capture fine-grained subject details and frequently prioritize one form of guidance over the other, resulting in suboptimal subject encoding and an imbalance in the generated images. In this study, we uncover key insights into achieving high-quality balances on subject identity preservation and text-following, notably that 1) the design of the subject image encoder critically influences subject identity preservation, and 2) the text and subject guidance should take effect at different denoising stages. Building on these insights, we introduce a new approach, EZIGen, that employs two main components: a carefully crafted subject image encoder based on the pretrained UNet of the Stable Diffusion model, following a process that balances the two guidances by separating their dominance stage and revisiting certain time steps to bootstrap subject transfer quality. Through these two components, EZIGen achieves state-of-the-art results on multiple personalized generation benchmarks with a unified model and 100 times less training data.
+          Zero-shot personalized image generation models aim to produce images that align with both a given text prompt and subject image, requiring the model to incorporate both sources of guidance. Existing methods often struggle to capture fine-grained subject details and frequently prioritize one form of guidance over the other, resulting in suboptimal subject encoding and imbalanced generation. In this study, we uncover key insights into overcoming such drawbacks, notably that 1) the choice of the subject image encoder critically influences subject identity preservation and training efficiency, and 2) the text and subject guidance should take effect at different denoising stages. Building on these insights, we introduce a new approach, EZIGen, that employs two main components: leveraging a fixed pre-trained Diffusion UNet itself as subject encoder, following a process that balances the two guidances by separating their dominance stage and revisiting certain time steps to bootstrap subject transfer quality. Through these two components, EZIGen, initially built upon SD2.1-base, achieved state-of-the-art performances on multiple personalized generation benchmarks with a unified model, while using 100 times less training data. Moreover, by further migrating our design to SDXL, EZIGen is proven to be a versatile model-agnostic solution for personalized generation.
           </p>
         </div>
       </div>
@@ -196,6 +196,35 @@
 
   </div>
 </section>
+
+<section class="section">
+  <div class="container is-max-desktop">
+    <!-- Abstract. -->
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3">Motivations</h2>
+        <div style="text-align: center;">
+        <img src="static/images/motivation1.png"
+          class="body"
+          alt="Interpolate start reference image. " width="100%"/>
+        </div>
+        
+        <div style="text-align: center;">
+        <img src="static/images/motivation2.png"
+          class="body"
+          alt="Interpolate start reference image. " width="100%"/>
+        </div>
+        <div class="content has-text-justified">
+          Exisitng methods usually suffer from imperfect balance of text-subject guidance and suboptimal subject appearance encoding.
+          </p>
+        </div>
+
+      </div>
+    </div>
+
+  </div>
+</section>
+
 
 <section class="section" style="padding-top: 0px; padding-bottom: 0px;">
   <div class="container is-max-desktop">
@@ -291,41 +320,6 @@
       </div>
     </div>
 
-    <div class="columns is-centered">
-      <div class="column is-full-width">
-        <h2 class="title is-3">Subjects Interpolation</h2>
-
-        <!-- Interpolating. -->
-        <div class="content has-text-justified">
-          <p>
-            Based on the nature of iterative generation, our methods automatically interpolate between when using image during subject-driven editing.
-          </p>
-        </div>
-        <div class="columns is-vcentered interpolation-panel">
-          <div class="interpolation-video-column-1">
-            <div id="interpolation-image-wrapper-1" >
-              Loading 1...
-            </div>
-            <input class="slider-1 is-fullwidth is-hcentered is-large is-info"
-                   id="interpolation-slider-1"
-                   step="1" min="0" max="100" value="0" type="range">
-          </div>
-
-          <div class="interpolation-video-column-2">
-            <div id="interpolation-image-wrapper-2" >
-              Loading 2...
-            </div>
-            <input class="slider-2 is-hcentered is-large is-info"
-                   id="interpolation-slider-2"
-                   step="1" min="0" max="100" value="0" type="range">
-          </div>
-
-
-        </div>
-        <br/>
-
-      </div>
-    </div>
 
     <div class="columns is-centered">
 
@@ -333,7 +327,7 @@
         <div class="content">
           <div style="text-align: center;"><h2 class="title is-3">More Visualization Results</h2></div>
           <h3 class="title is-4">Personalized Image Generation</h2>
-            <img src="static/images/more_results.jpg"
+            <img src="static/images/more_results.png"
             class="body"
             alt="Interpolate start reference image." width="100%"/>
 
