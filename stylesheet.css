@@ -96,11 +96,22 @@ h2 {
   font-size: 22px;
 }
 
-.papertitle {
+/* .papertitle {
   font-family: 'Lato', Verdana, Helvetica, sans-serif;
   font-size: 14px;
   font-weight: 700;
+} */
+
+papertitle {
+  font-size: 1.1em;   /* 比正文大 */
+  font-weight: bold;  /* 加粗 */
+  color: #222;
+  margin-bottom: 6px;
 }
+papertitle:hover {
+  text-decoration: underline;  /* 鼠标悬停有下划线 */
+}
+
 
 .name {
   padding-top: 20px;
