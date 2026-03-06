@@ -7,9 +7,9 @@ redirect_from:
   - /about.html
 ---
 
-I am a second-year Ph.D. student in Computer Science at the [Australian Institute for Machine Learning (AIML), University of Adelaide](https://www.adelaide.edu.au/aiml/), fortunate to be supervised by [Prof. Lingqiao Liu](https://scholar.google.com/citations?user=Y2xu62UAAAAJ&hl=en) and [Dr. Xinyu Zhang](https://zhangxinyu-xyz.github.io/). Before that, I completed my Master's degree in Machine Learning and Computer Vision at the [Australian National University](https://www.anu.edu.au/) where I worked on multi-camera detection problems advised by [Prof. Liang Zheng](https://scholar.google.com/citations?hl=en&user=vNHqr3oAAAAJ&view_op=list_works&sortby=pubdate).
+I am a third-year Ph.D. student in Computer Science at the [Australian Institute for Machine Learning (AIML), University of Adelaide](https://www.adelaide.edu.au/aiml/), fortunate to be supervised by [Prof. Lingqiao Liu](https://scholar.google.com/citations?user=Y2xu62UAAAAJ&hl=en) and [Dr. Xinyu Zhang](https://zhangxinyu-xyz.github.io/). Before that, I completed my Master's degree in Machine Learning and Computer Vision at the [Australian National University](https://www.anu.edu.au/) where I worked on multi-camera detection problems advised by [Prof. Liang Zheng](https://scholar.google.com/citations?hl=en&user=vNHqr3oAAAAJ&view_op=list_works&sortby=pubdate).
 
-I am currently working on Generative World Modeling, 3D Generation, and example-based video/image generation and MLLMs. Previously, I also explored areas such as multiview detection and robotic vision.
+My research currently focuses on Generative World Models, 3D Generation, and Example-based Content Generation. Previously, I also gained experience in Multiview Detection and Robotic Vision.
 
 **I'm looking for industrial internship, feel free to reach out!**
 
