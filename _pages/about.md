@@ -26,7 +26,74 @@ News
 Selected Publications
 ======
 
+### Generative World Modeling
+
 <div style="display: flex; gap: 16px; margin-bottom: 20px;">
+  <div style="min-width: 170px; max-width: 170px;"><img src="/images/liveworld.jpg" style="width: 100%; border-radius: 3px; border: 1px solid #eee;"></div>
+  <div>
+    <strong>LiveWorld: Simulating Out-of-Sight Dynamics in Generative Video World Models</strong><br>
+    <span style="color: #000; font-weight: 700;">Zicheng Duan*</span>, Jiatong Xia*, Zeyu Zhang*, Wenbo Zhang, Gengze Zhou, Chenhui Gou, Yefei He, Feng Chen, Xinyu Zhang, Lingqiao Liu<br>
+    <em>arXiv preprint (2026)</em><br>
+    [<a href="https://arxiv.org/abs/">Paper</a>]
+  </div>
+</div>
+
+<div style="display: flex; gap: 16px; margin-bottom: 20px;">
+  <div style="min-width: 170px; max-width: 170px;"><img src="/images/pipeline.png" style="width: 100%; border-radius: 3px; border: 1px solid #eee;"></div>
+  <div>
+    <strong>VQ-VA World: Towards High-Quality Visual Question-Visual Answering</strong><br>
+    Chenhui Gou*, Zilong Chen*, Zeyu Wang*, Feng Li, Deyao Zhu, <span style="color: #000; font-weight: 700;">Zicheng Duan</span>, Kunchang Li, Chaorui Deng, Hongyi Yuan, Haoqi Fan, Cihang Xie, Jianfei Cai, Hamid Rezatofighi<br>
+    <em>CVPR 2026</em><br>
+    [<a href="https://chenhuigou.github.io/VQ-VA-World/">Demo Page</a> / <a href="https://arxiv.org/abs/2511.20573">Paper</a>]
+  </div>
+</div>
+
+<div style="display: flex; gap: 16px; margin-bottom: 20px;">
+  <div style="min-width: 170px; max-width: 170px;"><img src="/images/points2-3D_teaser.png" style="width: 100%; border-radius: 3px; border: 1px solid #eee;"></div>
+  <div>
+    <strong>Points-to-3D: Structure-Aware 3D Generation with Point Cloud Priors</strong><br>
+    Jiatong Xia*, <span style="color: #000; font-weight: 700;">Zicheng Duan*</span>, Anton van den Hengel, Lingqiao Liu<br>
+    <em>CVPR 2026</em><br>
+    [<a href="/points2-3D/index.html">Demo Page</a> / <a href="/points2-3D/CVPR_2026.pdf">Paper</a>]
+  </div>
+</div>
+
+### Generative Model
+
+<div style="display: flex; gap: 16px; margin-bottom: 20px;">
+  <div style="min-width: 170px; max-width: 170px;"><img src="/images/teaser_large.png" style="width: 100%; border-radius: 3px; border: 1px solid #eee;"></div>
+  <div>
+    <strong>EZIGen: Enhancing zero-shot personalized image generation with precise subject encoding and decoupled guidance</strong><br>
+    <span style="color: #000; font-weight: 700;">Zicheng Duan</span>, Yuxuan Ding, Chenhui Gou, Ziqin Zhou, Ethan Smith, Lingqiao Liu<br>
+    <em>BMVC 2025</em><br>
+    [<a href="/pages/EZIGen/index.html">Demo Page</a> / <a href="http://arxiv.org/abs/2409.08091">Paper</a> / <a href="https://github.com/ZichengDuan/EZIGen">Code</a>]
+  </div>
+</div>
+
+<div style="display: flex; gap: 16px; margin-bottom: 20px;">
+  <div style="min-width: 170px; max-width: 170px;"><img src="/images/SimulateMotion-480.webp" style="width: 100%; border-radius: 3px; border: 1px solid #eee;"></div>
+  <div>
+    <strong>Training-Free Motion-Guided Video Generation with Enhanced Temporal Consistency Using Motion Consistency Loss</strong><br>
+    Xinyu Zhang, <span style="color: #000; font-weight: 700;">Zicheng Duan</span>, Dong Gong, Lingqiao Liu<br>
+    <em>BMVC 2025</em><br>
+    [<a href="https://zhangxinyu-xyz.github.io/SimulateMotion.github.io/">Demo Page</a> / <a href="https://arxiv.org/abs/2501.07563v1">Paper</a>]
+  </div>
+</div>
+
+<div style="display: flex; gap: 16px; margin-bottom: 20px;">
+  <div style="min-width: 170px; max-width: 170px;"><img src="/images/vertical_concat.gif" style="width: 100%; border-radius: 3px; border: 1px solid #eee;"></div>
+  <div>
+    <strong>Let Your Video Listen to Your Music!</strong><br>
+    Xinyu Zhang, Dong Gong, <span style="color: #000; font-weight: 700;">Zicheng Duan</span>, Anton van den Hengel, Lingqiao Liu<br>
+    <em>ACM MM 2025</em><br>
+    [<a href="https://zhangxinyu-xyz.github.io/MVAA/">Demo Page</a> / <a href="https://arxiv.org/abs/2506.18881">Paper</a>]
+  </div>
+</div>
+
+<details>
+<summary style="cursor: pointer; font-size: 1.2em; font-weight: 700; margin-top: 20px; margin-bottom: 10px; color: #494e52;">📄 All Publications (click to expand)</summary>
+
+<div style="display: flex; gap: 16px; margin-bottom: 20px; margin-top: 16px;">
   <div style="min-width: 170px; max-width: 170px;"><img src="/images/liveworld.jpg" style="width: 100%; border-radius: 3px; border: 1px solid #eee;"></div>
   <div>
     <strong>LiveWorld: Simulating Out-of-Sight Dynamics in Generative Video World Models</strong><br>
@@ -135,6 +202,8 @@ Selected Publications
     [<a href="https://arxiv.org/pdf/2109.10473">Paper</a> / <a href="https://github.com/DRL-CASIA/MVM3D">Code</a>]
   </div>
 </div>
+
+</details>
 
 Projects
 ======
