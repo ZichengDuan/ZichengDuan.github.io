@@ -13,18 +13,16 @@ I am currently working on Generative World Modeling, 3D Generation, and example-
 
 **I'm looking for industrial internship, feel free to reach out!**
 
-News
-======
+<h2 style="margin-top: 1.5em;">News</h2>
 - **[Mar 2026]** New preprint: LiveWorld - Simulating Out-of-Sight Dynamics in Generative Video World Models.
-- **[Mar 2026]** One paper accepted to CVPR 2026 (Points-to-3D)!
-- **[Mar 2026]** One paper accepted to CVPR 2026 (VQ-VA World)!
+- **[Mar 2026]** Three papers accepted to CVPR 2026!
+- **[2025]** Invited talk at DICTA 2025 workshop on Generative World Models.
 - **[2025]** One paper accepted to TMLR.
 - **[2025]** Two papers accepted to BMVC 2025.
 - **[2025]** One paper accepted to ACM MM 2025.
-- **[2025]** Invited talk at DICTA 2025 workshop on Visual Generative Models.
 
-Selected Publications
-======
+
+<h2 style="margin-top: 4em;">Selected Publications</h2>
 
 <h3 style="margin-top: 10px; margin-bottom: 14px; font-size: 1.25em;">Generative World Modeling</h3>
 
@@ -205,8 +203,7 @@ Selected Publications
 
 </details>
 
-Projects
-======
+<h2 style="margin-top: 4em;">Projects</h2>
 
 <div style="display: flex; gap: 12px; align-items: center; margin-bottom: 12px; font-size: 0.88em; line-height: 1.45;">
   <div style="min-width: 220px; max-width: 220px;"><img src="/images/thechosenone.png" style="width: 100%; border-radius: 3px; border: 1px solid #eee;"></div>
@@ -217,8 +214,7 @@ Projects
   </div>
 </div>
 
-Competitions
-======
+<h2 style="margin-top: 4em;">Competitions</h2>
 
 <div style="display: flex; gap: 12px; align-items: center; margin-bottom: 12px; font-size: 0.88em; line-height: 1.45;">
   <div style="min-width: 220px; max-width: 220px;"><img src="/images/RMUA.jpg" style="width: 100%; border-radius: 3px; border: 1px solid #eee;"></div>
@@ -228,7 +224,6 @@ Competitions
   </div>
 </div>
 
-Academic Services
-======
+<h2 style="margin-top: 4em;">Academic Services</h2>
 
 **Reviewer:** AAAI'25, DICTA'25, NeurIPS'24, ICASSP'24
