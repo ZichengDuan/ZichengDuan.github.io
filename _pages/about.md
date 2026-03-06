@@ -17,7 +17,7 @@ My research currently focuses on Generative World Models, 3D Generation, and Exa
 
 News
 ======
-- **[Mar 2026]** New preprint: LiveWorld - Simulating Out-of-Sight Dynamics in Generative Video World Models.
+- **[Mar 2026]** New preprint is out: LiveWorld - Simulating Out-of-Sight Dynamics in Generative Video World Models.
 - **[Mar 2026]** Three papers accepted to CVPR 2026!
 - **[2025]** Invited talk at DICTA 2025 workshop on Generative World Models.
 - **[2025]** One paper accepted to TMLR.
@@ -38,7 +38,7 @@ Selected Publications
     <strong>LiveWorld: Simulating Out-of-Sight Dynamics in Generative Video World Models</strong><br>
     <span style="color: #000; font-weight: 700;">Zicheng Duan*</span>, Jiatong Xia*, Zeyu Zhang*, Wenbo Zhang, Gengze Zhou, Chenhui Gou, Yefei He, Feng Chen, Xinyu Zhang, Lingqiao Liu<br>
     <em>arXiv preprint (2026)</em><br>
-    [<a href="https://arxiv.org/abs/">Paper</a>]
+    [<a href="/LiveWorld/ECCV2026_Zicheng.pdf/">Paper</a>]
   </div>
 </div>
 
