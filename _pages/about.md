@@ -18,11 +18,11 @@ My research currently focuses on Generative World Models, 3D Generation, and Exa
 News
 ======
 - **[Mar 2026]** New preprint is out: LiveWorld - Simulating Out-of-Sight Dynamics in Generative Video World Models.
-- **[Mar 2026]** Three papers accepted to CVPR 2026!
-- **[2025]** Invited talk at DICTA 2025 workshop on Generative World Models.
-- **[2025]** One paper accepted to TMLR.
-- **[2025]** Two papers accepted to BMVC 2025.
-- **[2025]** One paper accepted to ACM MM 2025.
+- **[Feb 2026]** Three papers accepted to CVPR 2026!
+- **[Nov 2025]** Invited talk at DICTA 2025 workshop on Generative World Models.
+- **[Oct 2025]** One paper accepted to TMLR.
+- **[May 2025]** Two papers accepted to BMVC 2025.
+- **[May 2025]** One paper accepted to ACM MM 2025.
 
 
 <div style="margin-top: 4em;"></div>
@@ -37,18 +37,8 @@ Selected Publications
   <div>
     <strong>LiveWorld: Simulating Out-of-Sight Dynamics in Generative Video World Models</strong><br>
     <span style="color: #000; font-weight: 700;">Zicheng Duan*</span>, Jiatong Xia*, Zeyu Zhang*, Wenbo Zhang, Gengze Zhou, Chenhui Gou, Yefei He, Feng Chen, Xinyu Zhang, Lingqiao Liu<br>
-    <em>arXiv preprint (2026)</em><br>
+    <em>arXiv preprint (2026), under ECCV 2026 review</em><br>
     <a href="/LiveWorld/ECCV2026_Zicheng.pdf">Paper</a>
-  </div>
-</div>
-
-<div style="display: flex; gap: 12px; align-items: center; margin-bottom: 12px; font-size: 0.88em; line-height: 1.45;">
-  <div style="min-width: 220px; max-width: 220px;"><img src="/images/pipeline.png" style="width: 100%; border-radius: 3px; border: 1px solid #eee;"></div>
-  <div>
-    <strong>VQ-VA World: Towards High-Quality Visual Question-Visual Answering</strong><br>
-    Chenhui Gou*, Zilong Chen*, Zeyu Wang*, Feng Li, Deyao Zhu, <span style="color: #000; font-weight: 700;">Zicheng Duan</span>, Kunchang Li, Chaorui Deng, Hongyi Yuan, Haoqi Fan, Cihang Xie, Jianfei Cai, Hamid Rezatofighi<br>
-    <em>CVPR 2026</em><br>
-    [<a href="https://chenhuigou.github.io/VQ-VA-World/">Demo Page</a> / <a href="https://arxiv.org/abs/2511.20573">Paper</a>]
   </div>
 </div>
 
@@ -59,6 +49,16 @@ Selected Publications
     Jiatong Xia*, <span style="color: #000; font-weight: 700;">Zicheng Duan*</span>, Anton van den Hengel, Lingqiao Liu<br>
     <em>CVPR 2026</em><br>
     [<a href="/points2-3D/index.html">Demo Page</a> / <a href="/points2-3D/CVPR_2026.pdf">Paper</a>]
+  </div>
+</div>
+
+<div style="display: flex; gap: 12px; align-items: center; margin-bottom: 12px; font-size: 0.88em; line-height: 1.45;">
+  <div style="min-width: 220px; max-width: 220px;"><img src="/images/pipeline.png" style="width: 100%; border-radius: 3px; border: 1px solid #eee;"></div>
+  <div>
+    <strong>VQ-VA World: Towards High-Quality Visual Question-Visual Answering</strong><br>
+    Chenhui Gou*, Zilong Chen*, Zeyu Wang*, Feng Li, Deyao Zhu, <span style="color: #000; font-weight: 700;">Zicheng Duan</span>, Kunchang Li, Chaorui Deng, Hongyi Yuan, Haoqi Fan, Cihang Xie, Jianfei Cai, Hamid Rezatofighi<br>
+    <em>CVPR 2026</em><br>
+    [<a href="https://chenhuigou.github.io/VQ-VA-World/">Demo Page</a> / <a href="https://arxiv.org/abs/2511.20573">Paper</a>]
   </div>
 </div>
 
