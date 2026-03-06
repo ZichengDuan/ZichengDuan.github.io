@@ -26,9 +26,9 @@ News
 Selected Publications
 ======
 
-<h3 style="margin-top: 10px; margin-bottom: 14px;">Generative World Modeling</h3>
+<h3 style="margin-top: 10px; margin-bottom: 14px; font-size: 1.25em;">Generative World Modeling</h3>
 
-<div style="display: flex; gap: 12px; margin-bottom: 12px; font-size: 0.88em; line-height: 1.45;">
+<div style="display: flex; gap: 12px; align-items: center; margin-bottom: 12px; font-size: 0.88em; line-height: 1.45;">
   <div style="min-width: 220px; max-width: 220px;"><img src="/images/liveworld.jpg" style="width: 100%; border-radius: 3px; border: 1px solid #eee;"></div>
   <div>
     <strong>LiveWorld: Simulating Out-of-Sight Dynamics in Generative Video World Models</strong><br>
@@ -38,7 +38,7 @@ Selected Publications
   </div>
 </div>
 
-<div style="display: flex; gap: 12px; margin-bottom: 12px; font-size: 0.88em; line-height: 1.45;">
+<div style="display: flex; gap: 12px; align-items: center; margin-bottom: 12px; font-size: 0.88em; line-height: 1.45;">
   <div style="min-width: 220px; max-width: 220px;"><img src="/images/pipeline.png" style="width: 100%; border-radius: 3px; border: 1px solid #eee;"></div>
   <div>
     <strong>VQ-VA World: Towards High-Quality Visual Question-Visual Answering</strong><br>
@@ -48,7 +48,7 @@ Selected Publications
   </div>
 </div>
 
-<div style="display: flex; gap: 12px; margin-bottom: 12px; font-size: 0.88em; line-height: 1.45;">
+<div style="display: flex; gap: 12px; align-items: center; margin-bottom: 12px; font-size: 0.88em; line-height: 1.45;">
   <div style="min-width: 220px; max-width: 220px;"><img src="/images/points2-3D_teaser.png" style="width: 100%; border-radius: 3px; border: 1px solid #eee;"></div>
   <div>
     <strong>Points-to-3D: Structure-Aware 3D Generation with Point Cloud Priors</strong><br>
@@ -58,9 +58,9 @@ Selected Publications
   </div>
 </div>
 
-<h3 style="margin-top: 24px; margin-bottom: 14px;">Generative Model</h3>
+<h3 style="margin-top: 24px; margin-bottom: 14px; font-size: 1.25em;">Generative Model</h3>
 
-<div style="display: flex; gap: 12px; margin-bottom: 12px; font-size: 0.88em; line-height: 1.45;">
+<div style="display: flex; gap: 12px; align-items: center; margin-bottom: 12px; font-size: 0.88em; line-height: 1.45;">
   <div style="min-width: 220px; max-width: 220px;"><img src="/images/teaser_large.png" style="width: 100%; border-radius: 3px; border: 1px solid #eee;"></div>
   <div>
     <strong>EZIGen: Enhancing zero-shot personalized image generation with precise subject encoding and decoupled guidance</strong><br>
@@ -70,7 +70,7 @@ Selected Publications
   </div>
 </div>
 
-<div style="display: flex; gap: 12px; margin-bottom: 12px; font-size: 0.88em; line-height: 1.45;">
+<div style="display: flex; gap: 12px; align-items: center; margin-bottom: 12px; font-size: 0.88em; line-height: 1.45;">
   <div style="min-width: 220px; max-width: 220px;"><img src="/images/SimulateMotion-480.webp" style="width: 100%; border-radius: 3px; border: 1px solid #eee;"></div>
   <div>
     <strong>Training-Free Motion-Guided Video Generation with Enhanced Temporal Consistency Using Motion Consistency Loss</strong><br>
@@ -80,7 +80,7 @@ Selected Publications
   </div>
 </div>
 
-<div style="display: flex; gap: 12px; margin-bottom: 12px; font-size: 0.88em; line-height: 1.45;">
+<div style="display: flex; gap: 12px; align-items: center; margin-bottom: 12px; font-size: 0.88em; line-height: 1.45;">
   <div style="min-width: 220px; max-width: 220px;"><img src="/images/vertical_concat.gif" style="width: 100%; border-radius: 3px; border: 1px solid #eee;"></div>
   <div>
     <strong>Let Your Video Listen to Your Music!</strong><br>
@@ -93,7 +93,7 @@ Selected Publications
 <details markdown="1">
 <summary style="cursor: pointer; font-size: 1.2em; font-weight: 700; margin-top: 24px; margin-bottom: 16px; padding: 10px 0; color: #494e52; border-top: 1px solid #ddd;">All Publications (click to expand)</summary>
 
-<div style="display: flex; gap: 12px; margin-bottom: 12px; font-size: 0.88em; line-height: 1.45; margin-top: 16px;">
+<div style="display: flex; gap: 12px; align-items: center; margin-bottom: 12px; font-size: 0.88em; line-height: 1.45; margin-top: 16px;">
   <div style="min-width: 220px; max-width: 220px;"><img src="/images/liveworld.jpg" style="width: 100%; border-radius: 3px; border: 1px solid #eee;"></div>
   <div>
     <strong>LiveWorld: Simulating Out-of-Sight Dynamics in Generative Video World Models</strong><br>
@@ -103,7 +103,7 @@ Selected Publications
   </div>
 </div>
 
-<div style="display: flex; gap: 12px; margin-bottom: 12px; font-size: 0.88em; line-height: 1.45;">
+<div style="display: flex; gap: 12px; align-items: center; margin-bottom: 12px; font-size: 0.88em; line-height: 1.45;">
   <div style="min-width: 220px; max-width: 220px;"><img src="/images/points2-3D_teaser.png" style="width: 100%; border-radius: 3px; border: 1px solid #eee;"></div>
   <div>
     <strong>Points-to-3D: Structure-Aware 3D Generation with Point Cloud Priors</strong><br>
@@ -113,7 +113,7 @@ Selected Publications
   </div>
 </div>
 
-<div style="display: flex; gap: 12px; margin-bottom: 12px; font-size: 0.88em; line-height: 1.45;">
+<div style="display: flex; gap: 12px; align-items: center; margin-bottom: 12px; font-size: 0.88em; line-height: 1.45;">
   <div style="min-width: 220px; max-width: 220px;"><img src="/images/pipeline.png" style="width: 100%; border-radius: 3px; border: 1px solid #eee;"></div>
   <div>
     <strong>VQ-VA World: Towards High-Quality Visual Question-Visual Answering</strong><br>
@@ -123,7 +123,7 @@ Selected Publications
   </div>
 </div>
 
-<div style="display: flex; gap: 12px; margin-bottom: 12px; font-size: 0.88em; line-height: 1.45;">
+<div style="display: flex; gap: 12px; align-items: center; margin-bottom: 12px; font-size: 0.88em; line-height: 1.45;">
   <div style="min-width: 220px; max-width: 220px;"><img src="/images/teaser_large.png" style="width: 100%; border-radius: 3px; border: 1px solid #eee;"></div>
   <div>
     <strong>EZIGen: Enhancing zero-shot personalized image generation with precise subject encoding and decoupled guidance</strong><br>
@@ -133,7 +133,7 @@ Selected Publications
   </div>
 </div>
 
-<div style="display: flex; gap: 12px; margin-bottom: 12px; font-size: 0.88em; line-height: 1.45;">
+<div style="display: flex; gap: 12px; align-items: center; margin-bottom: 12px; font-size: 0.88em; line-height: 1.45;">
   <div style="min-width: 220px; max-width: 220px;"><img src="/images/SimulateMotion-480.webp" style="width: 100%; border-radius: 3px; border: 1px solid #eee;"></div>
   <div>
     <strong>Training-Free Motion-Guided Video Generation with Enhanced Temporal Consistency Using Motion Consistency Loss</strong><br>
@@ -143,7 +143,7 @@ Selected Publications
   </div>
 </div>
 
-<div style="display: flex; gap: 12px; margin-bottom: 12px; font-size: 0.88em; line-height: 1.45;">
+<div style="display: flex; gap: 12px; align-items: center; margin-bottom: 12px; font-size: 0.88em; line-height: 1.45;">
   <div style="min-width: 220px; max-width: 220px;"><img src="/images/vertical_concat.gif" style="width: 100%; border-radius: 3px; border: 1px solid #eee;"></div>
   <div>
     <strong>Let Your Video Listen to Your Music!</strong><br>
@@ -153,7 +153,7 @@ Selected Publications
   </div>
 </div>
 
-<div style="display: flex; gap: 12px; margin-bottom: 12px; font-size: 0.88em; line-height: 1.45;">
+<div style="display: flex; gap: 12px; align-items: center; margin-bottom: 12px; font-size: 0.88em; line-height: 1.45;">
   <div style="min-width: 220px; max-width: 220px;"><img src="/images/frame-wise_conditioning.vV3yeDdM_Z2pvVQq.webp" style="width: 100%; border-radius: 3px; border: 1px solid #eee;"></div>
   <div>
     <strong>Frame-wise Conditioning Adaptation for Fine-Tuning Diffusion Models in Text-to-Video Prediction</strong><br>
@@ -163,7 +163,7 @@ Selected Publications
   </div>
 </div>
 
-<div style="display: flex; gap: 12px; margin-bottom: 12px; font-size: 0.88em; line-height: 1.45;">
+<div style="display: flex; gap: 12px; align-items: center; margin-bottom: 12px; font-size: 0.88em; line-height: 1.45;">
   <div style="min-width: 220px; max-width: 220px;"><img src="/images/MvCHM.jpg" style="width: 100%; border-radius: 3px; border: 1px solid #eee;"></div>
   <div>
     <strong>Multiview Detection with Cardboard Human Modeling</strong><br>
@@ -173,7 +173,7 @@ Selected Publications
   </div>
 </div>
 
-<div style="display: flex; gap: 12px; margin-bottom: 12px; font-size: 0.88em; line-height: 1.45;">
+<div style="display: flex; gap: 12px; align-items: center; margin-bottom: 12px; font-size: 0.88em; line-height: 1.45;">
   <div style="min-width: 220px; max-width: 220px;"><img src="/images/VFA.png" style="width: 100%; border-radius: 3px; border: 1px solid #eee;"></div>
   <div>
     <strong>Voxelized 3D Feature Aggregation for Multiview Detection</strong><br>
@@ -183,7 +183,7 @@ Selected Publications
   </div>
 </div>
 
-<div style="display: flex; gap: 12px; margin-bottom: 12px; font-size: 0.88em; line-height: 1.45;">
+<div style="display: flex; gap: 12px; align-items: center; margin-bottom: 12px; font-size: 0.88em; line-height: 1.45;">
   <div style="min-width: 220px; max-width: 220px;"><img src="/images/robot.png" style="width: 100%; border-radius: 3px; border: 1px solid #eee;"></div>
   <div>
     <strong>Neurons perception dataset for RoboMaster AI challenge</strong><br>
@@ -193,7 +193,7 @@ Selected Publications
   </div>
 </div>
 
-<div style="display: flex; gap: 12px; margin-bottom: 12px; font-size: 0.88em; line-height: 1.45;">
+<div style="display: flex; gap: 12px; align-items: center; margin-bottom: 12px; font-size: 0.88em; line-height: 1.45;">
   <div style="min-width: 220px; max-width: 220px;"><img src="/images/MVM3Det.png" style="width: 100%; border-radius: 3px; border: 1px solid #eee;"></div>
   <div>
     <strong>MVM3Det: A Novel Method for Multi-view Monocular 3D Detection</strong><br>
@@ -208,7 +208,7 @@ Selected Publications
 Projects
 ======
 
-<div style="display: flex; gap: 12px; margin-bottom: 12px; font-size: 0.88em; line-height: 1.45;">
+<div style="display: flex; gap: 12px; align-items: center; margin-bottom: 12px; font-size: 0.88em; line-height: 1.45;">
   <div style="min-width: 220px; max-width: 220px;"><img src="/images/thechosenone.png" style="width: 100%; border-radius: 3px; border: 1px solid #eee;"></div>
   <div>
     <strong>Unofficial implementation of paper The Chosen One</strong><br>
@@ -220,7 +220,7 @@ Projects
 Competitions
 ======
 
-<div style="display: flex; gap: 12px; margin-bottom: 12px; font-size: 0.88em; line-height: 1.45;">
+<div style="display: flex; gap: 12px; align-items: center; margin-bottom: 12px; font-size: 0.88em; line-height: 1.45;">
   <div style="min-width: 220px; max-width: 220px;"><img src="/images/RMUA.jpg" style="width: 100%; border-radius: 3px; border: 1px solid #eee;"></div>
   <div>
     <strong>ICRA 2021 Workshop RoboMaster Competition</strong><br>
