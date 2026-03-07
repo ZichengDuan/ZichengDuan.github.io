@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="description"
+        content="LiveWorld: Simulating Out-of-Sight Dynamics in Generative Video World Models. A novel framework that extends video world models to support persistent world evolution.">
+  <meta name="keywords" content="LiveWorld, Video World Models, Out-of-Sight Dynamics, 4D Simulation, World Models">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>LiveWorld: Simulating Out-of-Sight Dynamics in Generative Video World Models</title>
+
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-PYVRSFMDRL"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+
+    gtag('js', new Date());
+
+    gtag('config', 'G-PYVRSFMDRL');
+  </script>
+
+  <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro"
+        rel="stylesheet">
+
+  <link rel="stylesheet" href="./static/css/bulma.min.css">
+  <link rel="stylesheet" href="./static/css/bulma-carousel.min.css">
+  <link rel="stylesheet" href="./static/css/bulma-slider.min.css">
+  <link rel="stylesheet" href="./static/css/fontawesome.all.min.css">
+  <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+  <link rel="stylesheet" href="./static/css/index.css">
+  <link rel="icon" href="./static/images/favicon.svg">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script defer src="./static/js/fontawesome.all.min.js"></script>
+  <script src="./static/js/bulma-carousel.min.js"></script>
+  <script src="./static/js/bulma-slider.min.js"></script>
+  <script src="./static/js/index.js"></script>
+</head>
+<body>
+
+<nav class="navbar" role="navigation" aria-label="main navigation">
+  <div class="navbar-brand">
+    <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false">
+      <span aria-hidden="true"></span>
+      <span aria-hidden="true"></span>
+      <span aria-hidden="true"></span>
+    </a>
+  </div>
+  <div class="navbar-menu">
+    <div class="navbar-start" style="flex-grow: 1; justify-content: center;">
+      <a class="navbar-item" href="https://www.adelaide.edu.au/aiml/">
+      <span class="icon">
+          <i class="fas fa-home"></i>
+      </span>
+      </a>
+    </div>
+
+  </div>
+</nav>
+
+
+<section class="hero">
+  <div class="hero-body">
+    <div class="container is-max-desktop">
+      <div class="columns is-centered">
+        <div class="column has-text-centered">
+          <h1 class="title is-1 publication-title">LiveWorld: Simulating Out-of-Sight Dynamics in Generative Video World Models</h1>
+          <div class="is-size-5 publication-authors">
+            <span class="author-block">
+              <a href="https://zichengduan.github.io/">Zicheng Duan</a><sup>1*</sup>,</span>
+            <span class="author-block">
+              <a href="https://www.linkedin.com/in/jiatong-xia/?locale=en_US">Jiatong Xia</a><sup>1*</sup>,</span>
+            <span class="author-block">
+              <a href="#">Zeyu Zhang</a><sup>2*</sup>,</span>
+            <span class="author-block">
+              <a href="#">Wenbo Zhang</a><sup>1</sup>,</span>
+            <span class="author-block">
+              <a href="#">Gengze Zhou</a><sup>1</sup>,</span>
+            <span class="author-block">
+              <a href="#">Chenhui Gou</a><sup>3</sup>,</span>
+            <span class="author-block">
+              <a href="#">Yefei He</a><sup>4</sup>,</span>
+            <span class="author-block">
+              <a href="#">Feng Chen</a><sup>1&dagger;</sup>,</span>
+            <span class="author-block">
+              <a href="#">Xinyu Zhang</a><sup>5&Dagger;</sup>,</span>
+            <span class="author-block">
+              <a href="https://researchers.adelaide.edu.au/profile/lingqiao.liu">Lingqiao Liu</a><sup>1&dagger;&Dagger;</sup>
+            </span>
+          </div>
+
+          <div class="is-size-5 publication-authors">
+            <span class="author-block"><sup>1</sup>Adelaide University,</span>
+            <span class="author-block"><sup>2</sup>The Australian National University,</span>
+            <span class="author-block"><sup>3</sup>Monash University,</span>
+            <span class="author-block"><sup>4</sup>Zhejiang University,</span>
+            <span class="author-block"><sup>5</sup>University of Auckland</span>
+          </div>
+
+          <div class="is-size-6 publication-authors" style="margin-top: 10px;">
+            <span class="author-block"><sup>*</sup>Equal contribution</span>
+            <span class="author-block"><sup>&dagger;</sup>Project lead</span>
+            <span class="author-block"><sup>&Dagger;</sup>Corresponding author</span>
+          </div>
+
+          <div class="column has-text-centered">
+            <div class="publication-links">
+              <!-- PDF Link. -->
+              <span class="link-block">
+                <a href="./ECCV_2026.pdf"
+                   class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                      <i class="fas fa-file-pdf"></i>
+                  </span>
+                  <span>Paper</span>
+                </a>
+              </span>
+              <span class="link-block">
+                <a href="#"
+                   class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                      <i class="ai ai-arxiv"></i>
+                  </span>
+                  <span>arXiv (Coming Soon)</span>
+                </a>
+              </span>
+              <!-- Code Link. -->
+              <span class="link-block">
+                <a href="#"
+                   class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                      <i class="fab fa-github"></i>
+                  </span>
+                  <span>Code (Coming Soon)</span>
+                  </a>
+              </span>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="hero teaser">
+  <div class="container is-max-desktop">
+    <div class="hero-body">
+      <img src="./static/images/teaser.jpg" alt="LiveWorld Teaser" style="width: 100%; height: auto;">
+      <h2 class="subtitle has-text-centered" style="margin-top: 20px;">
+        <strong>LiveWorld enables persistent out-of-sight dynamics.</strong> Instead of freezing unobserved regions, our framework
+        explicitly decouples world evolution from observation rendering. We register stationary <em>Monitors</em> to autonomously
+        fast-forward the temporal progression of active entities in the background. As the observer explores the scene along the
+        target trajectory, our state-aware renderer projects the continuously evolved world states to synthesize the final observation,
+        ensuring that dynamic events progress naturally even when entities are completely out of the observer's view.
+      </h2>
+    </div>
+  </div>
+</section>
+
+
+<section class="section">
+  <div class="container is-max-desktop">
+    <!-- Abstract. -->
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3">Abstract</h2>
+        <div class="content has-text-justified">
+          <p>
+            Recent generative video world models aim to simulate visual environment evolution, allowing an observer to
+            interactively explore the scene via camera control. However, they implicitly assume that the world only evolves
+            within the observer's field of view. Once an object leaves the observer's view, its state is "frozen" in memory,
+            and revisiting the same region later often fails to reflect events that should have occurred in the meantime.
+          </p>
+          <p>
+            In this work, we identify and formalize this overlooked limitation as the "out-of-sight dynamics" problem, which
+            impedes video world models from representing a continuously evolving world. To address this issue, we propose
+            <span class="dnerf">LiveWorld</span>, a novel framework that extends video world models to support persistent world
+            evolution. Instead of treating the world as static observational memory, LiveWorld models a persistent global state
+            composed of a static 3D background and dynamic entities that continue evolving even when unobserved.
+          </p>
+          <p>
+            To maintain these unseen dynamics, LiveWorld introduces a monitor-based mechanism that autonomously simulates the
+            temporal progression of active entities and synchronizes their evolved states upon revisiting, ensuring spatially
+            coherent rendering. For evaluation, we further introduce <strong>LiveBench</strong>, a dedicated benchmark for the
+            task of maintaining out-of-sight dynamics. Extensive experiments show that LiveWorld enables persistent event evolution
+            and long-term scene consistency, bridging the gap between existing 2D observation-based memory and true 4D dynamic
+            world simulation.
+          </p>
+        </div>
+      </div>
+    </div>
+    <!--/ Abstract. -->
+  </div>
+</section>
+
+
+<section class="hero is-light is-small">
+  <div class="hero-body">
+    <div class="container">
+      <h2 class="title is-3 has-text-centered">Method Overview</h2>
+      <div class="content has-text-centered">
+        <img src="./static/images/main.png" alt="Method Overview" style="max-width: 100%; height: auto;">
+        <p class="has-text-justified" style="margin-top: 20px;">
+          <strong>LiveWorld overview.</strong> Our system explicitly decouples world modeling into two processes.
+          <strong>(1) Static Accumulation (Blue):</strong> Temporally-invariant backgrounds are fused into a static 3D point
+          cloud via SLAM. <strong>(2) Dynamic Evolution (Green):</strong> Stationary monitors use the Evolution Engine
+          to fast-forward the out-of-sight progression of active entities, lifting them into 4D point clouds.
+          <strong>(3) State-aware Rendering (Purple):</strong> Both representations are projected onto the target camera
+          trajectory. This geometric projection, alongside appearance references, guides the renderer to synthesize coherent
+          observations reflecting the elapsed dynamics.
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- Problem Formulation -->
+<section class="section">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-full-width">
+        <h2 class="title is-3">World State Formulation</h2>
+        <div class="content has-text-centered">
+          <img src="./static/images/problem_formulation.png" alt="World State Formulation" style="max-width: 82%; height: auto;">
+          <p class="has-text-justified" style="margin-top: 20px;">
+            <strong>World State Formulation.</strong> We approximate the intractable 4D world state by decoupling it into two
+            trackable representations: a temporally-invariant static 3D environment via T-axis projection, and 2D video sequences
+            of dynamic entities via Z-axis projection. This structured approximation enables tractable world modeling while
+            preserving both static and dynamic scene components.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Monitor Registration -->
+    <div class="columns is-centered has-text-centered" style="margin-top: 40px;">
+      <div class="column is-full-width">
+        <h2 class="title is-3">Monitor Registration</h2>
+        <div class="content has-text-centered">
+          <img src="./static/images/registration.png" alt="Monitor Registration" style="max-width: 100%; height: auto;">
+          <p class="has-text-justified" style="margin-top: 20px;">
+            Given one or multiple preceding frames from the previous round, we first detect if the scene visited by the observer
+            contains active dynamic entities, using off-the-shelf VLMs and segmentors. Following a positive detection, we further
+            validate if the entity and scene are already registered by existing monitors. If not, a new monitor is registered to
+            autonomously track and evolve the entity's dynamics.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<footer class="footer">
+  <div class="container">
+    <div class="content has-text-centered">
+      <a class="icon-link"
+         href="./ECCV_2026.pdf">
+        <i class="fas fa-file-pdf"></i>
+      </a>
+      <a class="icon-link" href="#" class="external-link">
+        <i class="fab fa-github"></i>
+      </a>
+    </div>
+    <div class="columns is-centered">
+      <div class="column is-8">
+        <div class="content has-text-centered">
+          <p>
+            This website is adapted from <a href="https://github.com/nerfies/nerfies.github.io">Nerfies</a>,
+            licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative
+            Commons Attribution-ShareAlike 4.0 International License</a>.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>

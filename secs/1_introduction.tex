@@ -1,0 +1,24 @@
+% \vspace{-8mm}
+\section{Introduction}
+% \vspace{-1mm}
+Recently, there is an increasing demand to build world models that can anticipate future world states based on the current context and control inputs. By modeling the underlying dynamics of the environment, such systems can simulate the progression of a virtual world, offering a powerful platform for applications including agent training\cite{pan,nwm,peva}, decision-making\cite{waymo,magicdrive}, and large-scale synthetic environment generation\cite{genie1,genie3}.
+
+% 1. 背景：Video World Model 很火，但存在问题
+Among them, generative video models have emerged as a dominant paradigm for world modeling, leveraging their powerful prior to simulate realistic visual dynamics and enabling users to explore virtual environments through camera control. To maintain temporal consistency during exploration, existing approaches typically condition the generation on historical contexts stored as 2D snapshots in a KV cache~\cite{selfforcing, longlive} or explicitly reconstructed 3D spatial memory~\cite{spatia, worldplay}.
+
+% 2. 核心痛点：Out-of-sight dynamics (结合狗吃狗粮的生动例子)
+Despite these advancements, current video world models suffer from a fundamental limitation: they conflate the autonomous evolution of the world with camera-dependent rendering. By implicitly collapsing these two distinct processes into a single black-box generator, they are inherently trapped in a \textit{static-world assumption}. Consequently, once an active entity leaves the observer's field of view, its temporal progression is entirely ignored, effectively freezing the entity at its last observed timestamp. We refer to this overlooked phenomenon as the missing of \textbf{out-of-sight dynamics}. For instance, if an observer looks away from a dog eating its food, revisiting the same location later will simply retrieve the outdated snapshot of the dog mid-bite, rather than reflecting the elapsed dynamics of it having finished the meal.
+
+% 3. 我们的洞察和解法：解耦 + 结构化近似
+To overcome this limitation, we propose \textbf{LiveWorld}, a novel video world model framework that explicitly decouples world evolution ($\mathcal{E}$) from observation rendering ($\mathcal{R}$). Recognizing that maintaining a fully dense 4D state of the entire unobserved world is computationally intractable, we introduce a \textit{structured world-state approximation}. We factorize the global world state into two components based on their physical nature: a temporally invariant static background ($\mathcal{M}_{static}$), which is accumulated into a 3D spatial point cloud; and sparsely distributed dynamic entities ($\mathcal{M}_{dyn}$), which explicitly retain their temporal dimensions to continue evolving out of sight. 
+
+% 4. 系统落地：Monitor + Unified Backbone
+To seamlessly maintain and evolve this decoupled 4D world, we design a \textit{monitor-driven pipeline}. When a dynamic entity is detected, the system retroactively registers a virtual ``Monitor'' at its location. Even when the entity is no longer in the observer's field of view, the monitor autonomously fast-forwards its temporal progression, yielding an evolving 4D dynamic point cloud. To render the observer's continuous view, we project both the static environment and the up-to-date dynamic entities onto the target camera trajectory to serve as precise geometric conditioning. Importantly, recognizing that both unobserved temporal evolution and world rendering share the same generative paradigm, we implement both the monitor and the renderer using a \textit{unified state-conditioned video diffusion backbone} that takes the projected states and auxiliary references as input to produce the rendering results and the evolution video. In summary, our main contributions are as follows:
+
+% \vspace{-0.8mm}
+\begin{itemize}
+    \item We rigorously identify and formalize the missing \textit{out-of-sight dynamics} problem in current video world models, highlighting the critical flaw of conflating world evolution with observation rendering.
+    \item We propose \textbf{LiveWorld}, a decoupled video world model framework featuring a monitor-centric evolution system and a unified video backbone, which enables the autonomous temporal progression of unobserved entities.
+    \item We develop the first dedicated benchmark, \textbf{LiveBench}, specifically designed to quantitatively evaluate long-horizon out-of-sight dynamics and event permanence for video world models.
+    \item Extensive experiments on LiveBench demonstrate that LiveWorld successfully bridges the gap between 2D static memorization and 4D dynamic simulation, significantly outperforming existing baselines.
+\end{itemize}
