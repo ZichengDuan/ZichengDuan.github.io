@@ -38,7 +38,7 @@ Selected Publications
     <strong>LiveWorld: Simulating Out-of-Sight Dynamics in Generative Video World Models</strong><br>
     <span style="color: #000; font-weight: 700;">Zicheng Duan*</span>, Jiatong Xia*, Zeyu Zhang*, Wenbo Zhang, Gengze Zhou,<br>Chenhui Gou, Yefei He, Feng Chen, Xinyu Zhang, Lingqiao Liu<br>
     <em>arXiv preprint (2026), under ECCV 2026 review</em><br>
-    [<a href="/LiveWorld/index.html">Demo Page</a> / <a href="/LiveWorld/ECCV_2026.pdf">Paper</a> / <a href="https://github.com/ZichengDuan/LiveWorld">Code</a>]
+    [<a href="/LiveWorld/index.html">Demo Page</a> / <a href="/LiveWorld/LiveWorld.pdf">Paper</a> / <a href="https://github.com/ZichengDuan/LiveWorld">Code</a>]
   </div>
 </div>
 
