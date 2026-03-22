@@ -28,12 +28,10 @@ Such world models will ultimately help us:
 
 News
 ======
-- **[Mar 2026]** New preprint is out: LiveWorld - Simulating Out-of-Sight Dynamics in Generative Video World Models.
-- **[Feb 2026]** Three papers accepted to CVPR 2026!
-- **[Nov 2025]** Invited talk at DICTA 2025 workshop on Generative World Models.s
+- **[Mar 2026]** New preprint: LiveWorld - Simulating Out-of-Sight Dynamics in Generative Video World Models.
+- **[Feb 2026]** Three papers accepted to CVPR 2026.
+- **[Nov 2025]** Invited talk at DICTA 2025 workshop on Generative World Models.
 - **[Oct 2025]** One paper accepted to TMLR.
-<!-- - **[May 2025]** Two papers accepted to BMVC 2025.
-- **[May 2025]** One paper accepted to ACM MM 2025. -->
 
 
 <div style="margin-top: 4em;"></div>
