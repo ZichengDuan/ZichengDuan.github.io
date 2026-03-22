@@ -11,6 +11,8 @@ I am a third-year Ph.D. student in Computer Science at the [Australian Institute
 
 My research currently focuses on Generative World Models, 3D Generation, and Example-based Content Generation. Previously, I also gained experience in Multiview Detection and Robotic Vision.
 
+My long-term goal is to build controllable, consistent, and efficient world models that maintain: (1) faithful world state representations — spanning video frames, 3D structures, semantic interpretations, and high-dimensional embeddings; (2) rich controllability beyond simple text prompts — enabling precise manipulation of world dynamics; (3) long-term consistency across all modalities and dimensions; and (4) efficient state management for scalable simulation. Such world models will ultimately help us generate unlimited synthetic data to train downstream systems, mitigate long-tail distribution problems by simulating rare scenarios on demand, and explore novel possibilities and test hypotheses in safe, virtual environments.
+
 **I'm looking for industrial internship, feel free to reach out!**
 
 <div style="margin-top: 1.5em;"></div>
@@ -19,10 +21,10 @@ News
 ======
 - **[Mar 2026]** New preprint is out: LiveWorld - Simulating Out-of-Sight Dynamics in Generative Video World Models.
 - **[Feb 2026]** Three papers accepted to CVPR 2026!
-- **[Nov 2025]** Invited talk at DICTA 2025 workshop on Generative World Models.
+- **[Nov 2025]** Invited talk at DICTA 2025 workshop on Generative World Models.s
 - **[Oct 2025]** One paper accepted to TMLR.
-- **[May 2025]** Two papers accepted to BMVC 2025.
-- **[May 2025]** One paper accepted to ACM MM 2025.
+<!-- - **[May 2025]** Two papers accepted to BMVC 2025.
+- **[May 2025]** One paper accepted to ACM MM 2025. -->
 
 
 <div style="margin-top: 4em;"></div>
