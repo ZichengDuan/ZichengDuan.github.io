@@ -11,7 +11,16 @@ I am a third-year Ph.D. student in Computer Science at the [Australian Institute
 
 My research currently focuses on Generative World Models, 3D Generation, and Example-based Content Generation. Previously, I also gained experience in Multiview Detection and Robotic Vision.
 
-My long-term goal is to build controllable, consistent, and efficient world models that maintain: (1) faithful world state representations — spanning video frames, 3D structures, semantic interpretations, and high-dimensional embeddings; (2) rich controllability beyond simple text prompts — enabling precise manipulation of world dynamics; (3) long-term consistency across all modalities and dimensions; and (4) efficient state management for scalable simulation. Such world models will ultimately help us generate unlimited synthetic data to train downstream systems, mitigate long-tail distribution problems by simulating rare scenarios on demand, and explore novel possibilities and test hypotheses in safe, virtual environments.
+My long-term goal is to build controllable, consistent, and efficient world models that maintain:
+- Faithful world state representations — spanning video frames, 3D structures, semantic interpretations, and high-dimensional embeddings
+- Rich controllability beyond simple text prompts — enabling precise manipulation of world dynamics
+- Long-term consistency across all modalities and dimensions
+- Efficient state management for scalable simulation
+
+Such world models will ultimately help us:
+- Generate unlimited synthetic data to train downstream systems
+- Mitigate long-tail distribution problems by simulating rare scenarios on demand
+- Explore novel possibilities and test hypotheses in safe, virtual environments
 
 **I'm looking for industrial internship, feel free to reach out!**
 
