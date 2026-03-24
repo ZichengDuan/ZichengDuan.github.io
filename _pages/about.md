@@ -57,7 +57,7 @@ Selected Publications
     <strong>Points-to-3D: Structure-Aware 3D Generation with Point Cloud Priors</strong><br>
     Jiatong Xia*, <span style="color: #000; font-weight: 700;">Zicheng Duan*</span>, Anton van den Hengel, Lingqiao Liu<br>
     <em>CVPR 2026</em><br>
-    [<a href="/points2-3D/index.html">Demo Page</a> / <a href="/points2-3D/CVPR_2026.pdf">Paper</a>]
+    [<a href="https://jiatongxia.github.io/points2-3D/">Demo Page</a> / <a href="https://arxiv.org/pdf/2603.18782">Paper</a>]
   </div>
 </div>
 
@@ -122,7 +122,7 @@ Selected Publications
     <strong>Points-to-3D: Structure-Aware 3D Generation with Point Cloud Priors</strong><br>
     Jiatong Xia*, <span style="color: #000; font-weight: 700;">Zicheng Duan*</span>, Anton van den Hengel, Lingqiao Liu<br>
     <em>CVPR 2026</em><br>
-    [<a href="/points2-3D/index.html">Demo Page</a> / <a href="/points2-3D/CVPR_2026.pdf">Paper</a>]
+    [<a href="https://jiatongxia.github.io/points2-3D/">Demo Page</a> / <a href="https://arxiv.org/pdf/2603.18782">Paper</a>]
   </div>
 </div>
 
