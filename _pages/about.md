@@ -71,7 +71,7 @@ Selected Publications
   </div>
 </div>
 
-<h3 style="margin-top: 24px; margin-bottom: 14px; font-size: 1.25em;">Generative Model</h3>
+<h3 style="margin-top: 24px; margin-bottom: 14px; font-size: 1.25em;">Contrtollable Content Generation</h3>
 
 <div style="display: flex; gap: 12px; align-items: center; margin-bottom: 12px; font-size: 0.88em; line-height: 1.45;">
   <div style="min-width: 220px; max-width: 220px;"><img src="/images/teaser_large.png" style="width: 100%; border-radius: 3px; border: 1px solid #eee;"></div>
@@ -133,6 +133,16 @@ Selected Publications
     Chenhui Gou*, Zilong Chen*, Zeyu Wang*, Feng Li, Deyao Zhu, <span style="color: #000; font-weight: 700;">Zicheng Duan</span>, Kunchang Li, Chaorui Deng, Hongyi Yuan, Haoqi Fan, Cihang Xie, Jianfei Cai, Hamid Rezatofighi<br>
     <em>CVPR 2026</em><br>
     [<a href="https://chenhuigou.github.io/VQ-VA-World/">Demo Page</a> / <a href="https://arxiv.org/abs/2511.20573">Paper</a>]
+  </div>
+</div>
+
+<div style="display: flex; gap: 12px; align-items: center; margin-bottom: 12px; font-size: 0.88em; line-height: 1.45;">
+  <div style="min-width: 220px; max-width: 220px;"><img src="/images/teaser_large.png" style="width: 100%; border-radius: 3px; border: 1px solid #eee;"></div>
+  <div>
+    <strong>An empirical study on how video-LLMs answer video questions</strong><br>
+    <span style="color: #000; font-weight: 700;">Chenhui Gou, Ziyu Ma, <strong>Zicheng Duan</strong>, Haoyu He, Feng Chen, Akide Liu, Bohan Zhuang, Jianfei Cai, Hamid Rezatofighi<br>
+    <em>CVPR 2026</em><br>
+    [<a href="https://arxiv.org/abs/2508.15360">Paper</a>]
   </div>
 </div>
 
@@ -250,4 +260,4 @@ Competitions
 Academic Services
 ======
 
-**Reviewer:** AAAI'25, DICTA'25, NeurIPS'24, ICASSP'24
+**Reviewer:** CVPR'26, AAAI'25, DICTA'25, NeurIPS'24, ICASSP'24
