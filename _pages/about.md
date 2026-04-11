@@ -7,22 +7,19 @@ redirect_from:
   - /about.html
 ---
 
-I am a third-year Ph.D. student in Computer Science at the [Australian Institute for Machine Learning (AIML), University of Adelaide](https://www.adelaide.edu.au/aiml/), fortunate to be supervised by [Prof. Lingqiao Liu](https://scholar.google.com/citations?user=Y2xu62UAAAAJ&hl=en) and [Dr. Xinyu Zhang](https://zhangxinyu-xyz.github.io/). Before that, I completed my Master's degree in Machine Learning and Computer Vision at the [Australian National University](https://www.anu.edu.au/) where I worked on multi-camera detection problems advised by [Prof. Liang Zheng](https://scholar.google.com/citations?hl=en&user=vNHqr3oAAAAJ&view_op=list_works&sortby=pubdate).
+I am a third-year Ph.D. student in Computer Science at the [Australian Institute for Machine Learning (AIML), University of Adelaide](https://www.adelaide.edu.au/aiml/), fortunate to be supervised by [Prof. Lingqiao Liu](https://scholar.google.com/citations?user=Y2xu62UAAAAJ&hl=en) and [Dr. Xinyu Zhang](https://zhangxinyu-xyz.github.io/). Before that, I completed my Master's degree in Machine Learning and Computer Vision at the [Australian National University](https://www.anu.edu.au/) where I worked on multi-camera detection problems advised by [Prof. Liang Zheng](https://scholar.google.com/citations?hl=en&user=vNHqr3oAAAAJ&view_op=list_works&sortby=pubdate). My current research focuses on Generative World Models, 3D Generation, and Example-based Content Generation.
 
-My research currently focuses on Generative World Models, 3D Generation, and Example-based Content Generation. Previously, I also gained experience in Multiview Detection and Robotic Vision.
+<h3 style="margin-top: 1.6em; margin-bottom: 0.6em; font-size: 1.25em;">Research Vision</h3>
 
-My long-term goal is to build controllable, consistent, and efficient world models that maintain:
-- Faithful world state representations — spanning video frames, 3D structures, semantic interpretations, and high-dimensional embeddings
-- Rich controllability beyond simple text prompts — enabling precise manipulation of world dynamics
-- Long-term consistency across all modalities and dimensions
-- Efficient state management for scalable simulation
-
-Such world models will ultimately help us:
-- Generate unlimited synthetic data to train downstream systems
-- Mitigate long-tail distribution problems by simulating rare scenarios on demand
-- Explore novel possibilities and test hypotheses in safe, virtual environments
-
-**I'm looking for industrial internship, feel free to reach out!**
+<div style="border-left: 3px solid #2a7ae2; background: #f6f8fa; padding: 14px 18px; border-radius: 4px; margin-bottom: 1.2em;">
+My long-term goal is to build <strong>controllable, consistent, and efficient world models</strong> that maintain:
+<ul style="margin-top: 0.5em; margin-bottom: 0;">
+  <li>Faithful world state representations — spanning video frames, 3D structures, semantic interpretations, and high-dimensional embeddings</li>
+  <li>Rich controllability beyond simple text prompts — enabling precise manipulation of world dynamics</li>
+  <li>Long-term consistency across all modalities and dimensions</li>
+  <li>Efficient state management for scalable simulation</li>
+</ul>
+</div>
 
 <div style="margin-top: 1.5em;"></div>
 
