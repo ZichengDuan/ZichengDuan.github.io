@@ -25,6 +25,7 @@ My long-term goal is to build <strong>controllable, consistent, and efficient wo
 
 News
 ======
+- **[May 2026]** I'll be joining <a href="https://baike.baidu.com/item/ATH%E4%BA%8B%E4%B8%9A%E7%BE%A4/67518582?fr=aladdin">Alibaba Group - Alibaba Token Hub</a> as a full-time research intern, focusing on video world models.
 - **[Mar 2026]** New preprint: LiveWorld - Simulating Out-of-Sight Dynamics in Generative Video World Models.
 - **[Feb 2026]** Three papers accepted to CVPR 2026.
 - **[Nov 2025]** Invited talk at DICTA 2025 workshop on Generative World Models.
@@ -137,7 +138,7 @@ Selected Publications
   <div style="min-width: 220px; max-width: 220px;"><img src="/images/teaser_large.png" style="width: 100%; border-radius: 3px; border: 1px solid #eee;"></div>
   <div>
     <strong>An empirical study on how video-LLMs answer video questions</strong><br>
-    <span style="color: #000; font-weight: 700;">Chenhui Gou, Ziyu Ma, <strong>Zicheng Duan</strong>, Haoyu He, Feng Chen, Akide Liu, Bohan Zhuang, Jianfei Cai, Hamid Rezatofighi<br>
+    Chenhui Gou, Ziyu Ma, <span style="color: #000; font-weight: 700;">Zicheng Duan</span>, Haoyu He, Feng Chen, Akide Liu, Bohan Zhuang, Jianfei Cai, Hamid Rezatofighi<br>
     <em>CVPR 2026</em><br>
     [<a href="https://arxiv.org/abs/2508.15360">Paper</a>]
   </div>
