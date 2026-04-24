@@ -26,9 +26,9 @@ My long-term goal is to build <strong>controllable, consistent, and efficient wo
 News
 ======
 - **[May 2026]** I'll be joining <a href="https://baike.baidu.com/item/ATH%E4%BA%8B%E4%B8%9A%E7%BE%A4/67518582?fr=aladdin">Alibaba Group - Alibaba Token Hub</a> as a full-time research intern, focusing on video world models.
-- **[Mar 2026]** New preprint: LiveWorld - Simulating Out-of-Sight Dynamics in Generative Video World Models.
+- **[Mar 2026]** New preprint: <a href="https://arxiv.org/abs/2603.07145">LiveWorld - Simulating Out-of-Sight Dynamics in Generative Video World Models</a>.
 - **[Feb 2026]** Three papers accepted to CVPR 2026.
-- **[Nov 2025]** Invited talk at DICTA 2025 workshop on Generative World Models.
+- **[Nov 2025]** Invited talk at <a href="https://zhangxinyu-xyz.github.io/vgm-dicta2025/">DICTA 2025 workshop</a> on Generative World Models.
 - **[Oct 2025]** One paper accepted to TMLR.
 
 
@@ -259,3 +259,12 @@ Academic Services
 ======
 
 **Reviewer:** CVPR'26, AAAI'25, DICTA'25, NeurIPS'24, ICASSP'24
+
+<div style="margin-top: 4em;"></div>
+
+Talks
+======
+
+- **Controllability Matters: Interpreting World Models from a Controllability Perspective**
+  <br><a href="https://zhangxinyu-xyz.github.io/vgm-dicta2025/">DICTA 2025 Workshop — Visual Generative Models: Past, Present, and Future</a>
+  <br>[<a href="/files/DICTA2025_talk.pdf">Slides</a>]
