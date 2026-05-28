@@ -25,7 +25,7 @@ My long-term goal is to build <strong>controllable, consistent, and efficient wo
 
 News
 ======
-- **[May 2026]** I'll be joining <a href="https://baike.baidu.com/item/ATH%E4%BA%8B%E4%B8%9A%E7%BE%A4/67518582?fr=aladdin">Alibaba Group - Alibaba Token Hub</a> as a full-time research intern, focusing on video world models.
+- **[May 2026]** I have joined <a href="https://baike.baidu.com/item/ATH%E4%BA%8B%E4%B8%9A%E7%BE%A4/67518582?fr=aladdin">Alibaba Group - Alibaba Token Hub</a> as a full-time research intern, focusing on generative world modeling.
 - **[Mar 2026]** New preprint: <a href="https://arxiv.org/abs/2603.07145">LiveWorld - Simulating Out-of-Sight Dynamics in Generative Video World Models</a>.
 - **[Feb 2026]** Three papers accepted to CVPR 2026.
 - **[Nov 2025]** Invited talk at <a href="https://zhangxinyu-xyz.github.io/vgm-dicta2025/">DICTA 2025 workshop</a> on Generative World Models.
