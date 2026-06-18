@@ -25,6 +25,7 @@ My long-term goal is to build <strong>controllable, consistent, and efficient wo
 
 News
 ======
+- **[Jun 2026]** LiveWorld is accepted to ECCV 2026.
 - **[May 2026]** I have joined <a href="https://baike.baidu.com/item/ATH%E4%BA%8B%E4%B8%9A%E7%BE%A4/67518582?fr=aladdin">Alibaba Group - Alibaba Token Hub</a> as a full-time research intern, focusing on generative world modeling.
 - **[Mar 2026]** New preprint: <a href="https://arxiv.org/abs/2603.07145">LiveWorld - Simulating Out-of-Sight Dynamics in Generative Video World Models</a>.
 - **[Feb 2026]** Three papers accepted to CVPR 2026.
@@ -44,7 +45,7 @@ Selected Publications
   <div>
     <strong>LiveWorld: Simulating Out-of-Sight Dynamics in Generative Video World Models</strong><br>
     <span style="color: #000; font-weight: 700;">Zicheng Duan*</span>, Jiatong Xia*, Zeyu Zhang*, Wenbo Zhang, Gengze Zhou,<br>Chenhui Gou, Yefei He, Feng Chen, Xinyu Zhang, Lingqiao Liu<br>
-    <em>arXiv preprint (2026), in submission</em><br>
+    <em>ECCV 2026</em><br>
     [<a href="/pages/LiveWorld/index.html">Demo Page</a> / <a href="https://arxiv.org/abs/2603.07145">Paper</a> / <a href="https://github.com/ZichengDuan/LiveWorld">Code</a>]
   </div>
 </div>
@@ -109,7 +110,7 @@ Selected Publications
   <div>
     <strong>LiveWorld: Simulating Out-of-Sight Dynamics in Generative Video World Models</strong><br>
     <span style="color: #000; font-weight: 700;">Zicheng Duan*</span>, Jiatong Xia*, Zeyu Zhang*, Wenbo Zhang, Gengze Zhou,<br>Chenhui Gou, Yefei He, Feng Chen, Xinyu Zhang, Lingqiao Liu<br>
-    <em>arXiv preprint (2026)</em><br>
+    <em>ECCV 2026</em><br>
     [<a href="/pages/LiveWorld/index.html">Demo Page</a> / <a href="https://arxiv.org/abs/2603.07145">Paper</a> / <a href="https://github.com/ZichengDuan/LiveWorld">Code</a>]
   </div>
 </div>
