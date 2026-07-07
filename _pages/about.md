@@ -9,6 +9,9 @@ redirect_from:
 
 I am a third-year Ph.D. student in Computer Science at the [Australian Institute for Machine Learning (AIML), University of Adelaide](https://www.adelaide.edu.au/aiml/), fortunate to be supervised by [Prof. Lingqiao Liu](https://scholar.google.com/citations?user=Y2xu62UAAAAJ&hl=en) and [Dr. Xinyu Zhang](https://zhangxinyu-xyz.github.io/). Before that, I completed my Master's degree in Machine Learning and Computer Vision at the [Australian National University](https://www.anu.edu.au/) where I worked on multi-camera detection problems advised by [Prof. Liang Zheng](https://scholar.google.com/citations?hl=en&user=vNHqr3oAAAAJ&view_op=list_works&sortby=pubdate). My current research focuses on Generative World Models, 3D Generation, and Example-based Content Generation. I am currently doing a research internship at Alibaba Token Hub, working closely with [Dr. Xinlong Wang](https://scholar.google.com/citations?user=DPz0DjYAAAAJ&hl=zh-CN) and [Fan Zhang](https://scholar.google.com/citations?user=VsJ39HMAAAAJ&hl=en).
 
+<p style="color: #d40000; font-weight: bold; font-size: 1.15em; margin-top: 1.2em; margin-bottom: 0.2em;">I am on the job market for 2026 Fall (expected to graduate in early 2027) — feel free to reach out!</p>
+<p style="color: #d40000; font-weight: bold; font-size: 1.15em; margin-top: 0; margin-bottom: 0;">我正在参加 2026 年秋招,预计于 2027 年上半年毕业,欢迎联系!</p>
+
 <h3 style="margin-top: 1.6em; margin-bottom: 0.6em; font-size: 1.25em;">Research Vision</h3>
 
 <div style="border-left: 3px solid #2a7ae2; background: #f6f8fa; padding: 14px 18px; border-radius: 4px; margin-bottom: 1.2em;">
