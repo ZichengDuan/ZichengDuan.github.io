@@ -69,6 +69,7 @@
       <div class="columns is-centered">
         <div class="column has-text-centered">
           <h1 class="title is-1 publication-title">LiveWorld: Simulating Out-of-Sight Dynamics in Generative Video World Models</h1>
+          <h2 class="title is-4 publication-title" style="color:#6e6e6e; margin-top: 2px; margin-bottom: 10px;">ECCV 2026</h2>
           <div class="is-size-5 publication-authors">
             <span class="author-block">
               <a href="https://zichengduan.github.io/">Zicheng Duan</a><sup>1*</sup>,</span>
@@ -332,6 +333,84 @@
         </div>
       </div>
     </div>
+  </div>
+</section>
+
+
+<!-- LiveBench -->
+<section class="hero is-light is-small">
+  <div class="hero-body">
+    <div class="container is-max-desktop">
+      <h2 class="title is-3 has-text-centered">LiveBench: Benchmarking Out-of-Sight Dynamics</h2>
+      <div class="content has-text-justified">
+        <p>
+          Existing benchmarks cannot measure whether a world model keeps evolving what it no longer sees, so we build
+          <strong>LiveBench</strong>: 100 diverse generated scenes paired with procedurally designed multi-round camera
+          trajectories and text-driven event scripts, totaling 400 evaluation sequences of 260 frames each. Trajectories
+          alternate between <em>leaving</em> and <em>revisiting</em> the initial viewpoint, in two families —
+          <strong>Same-Pose Revisit</strong> (A&rarr;B&rarr;A&rarr;B&rarr;A) and <strong>Different-Pose Revisit</strong>
+          (A&rarr;B&rarr;C) — forcing the model to reveal how the unobserved event has progressed.
+        </p>
+        <p>
+          Evaluation covers spatial memory (PSNR / SSIM / LPIPS on static backgrounds), entity identity and geometry
+          (foreground-masked DINOv2 similarity and 3D Chamfer Distance), and event progression via VLM-based VideoQA
+          accuracy on the text scripts.
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- Comparison with SOTA -->
+<section class="section">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-full-width">
+        <h2 class="title is-3">Comparison with State-of-the-Art</h2>
+        <div class="content has-text-centered">
+          <img src="./static/images/compare.jpg" alt="Comparison with state-of-the-art methods on LiveBench" style="max-width: 100%; height: auto;">
+          <p class="has-text-justified" style="margin-top: 20px;">
+            With the camera repeatedly moving away and returning, LiveWorld alone maintains long-horizon (260-frame)
+            out-of-sight dynamics, while Matrix-Game-2.0, Hunyuan-GameCraft-1.0, and Spatia either freeze the entity at
+            its last seen state or collapse the background entirely by the second revisit. On LiveBench, LiveWorld nearly
+            triples the best baseline's event-progression accuracy (VQA-Acc 59.1 vs. 20.1 on the first revisit) while
+            matching the strongest spatial-memory baselines on background fidelity.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Late-appearing events -->
+    <div class="columns is-centered has-text-centered" style="margin-top: 40px;">
+      <div class="column is-full-width">
+        <h2 class="title is-3">Concurrent and Late-Appearing Events</h2>
+        <div class="content has-text-centered">
+          <img src="./static/images/multi.jpg" alt="Late-appearing event revisiting demonstration" style="max-width: 100%; height: auto;">
+          <p class="has-text-justified" style="margin-top: 20px;">
+            New entities can be summoned via text mid-generation: here a corgi is introduced after the initial scene with
+            the kid, and a second monitor is registered once the camera leaves its region. Both monitors then evolve their
+            events independently and stay perfectly synchronized with the renderer upon revisits. In human evaluation of
+            such concurrent two-event scenarios, LiveWorld succeeds on both events simultaneously in 26% of scenes, while
+            the variant without event evolution collapses to 0%.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- BibTeX -->
+<section class="section" id="BibTeX">
+  <div class="container is-max-desktop content">
+    <h2 class="title">BibTeX</h2>
+    <pre><code>@article{duan2026liveworld,
+  title   = {LiveWorld: Simulating Out-of-Sight Dynamics in Generative Video World Models},
+  author  = {Duan, Zicheng and Xia, Jiatong and Zhang, Zeyu and Zhang, Wenbo and Zhou, Gengze and Gou, Chenhui and He, Yefei and Chen, Feng and Zhang, Xinyu and Liu, Lingqiao},
+  journal = {arXiv preprint arXiv:2603.07145},
+  year    = {2026}
+}</code></pre>
   </div>
 </section>
 
