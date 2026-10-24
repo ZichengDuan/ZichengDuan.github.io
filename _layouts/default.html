@@ -11,7 +11,8 @@ layout: compress
     {% include head/custom.html %}
   </head>
 
-  <body>
+  <body{% if page.homepage %} class="homepage"{% endif %}>
+    {% if page.homepage %}<a class="home-skip" href="#main">Skip to content</a>{% endif %}
 
     {% include browser-upgrade.html %}
     {% include masthead.html %}
@@ -20,8 +21,12 @@ layout: compress
 
     <div class="page__footer">
       <footer>
-        {% include footer/custom.html %}
-        {% include footer.html %}
+        {% if page.homepage %}
+          {% include home/footer.html %}
+        {% else %}
+          {% include footer/custom.html %}
+          {% include footer.html %}
+        {% endif %}
       </footer>
     </div>
 

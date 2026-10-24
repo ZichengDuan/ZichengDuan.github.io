@@ -1,5 +1,8 @@
 {% include base_path %}
-<div class="masthead">
+<div class="masthead"{% if page.homepage %} role="banner"{% endif %}>
+  {% if page.homepage %}
+    {% include home/masthead.html %}
+  {% else %}
   <div class="masthead__inner-wrap">
     <div class="masthead__menu">
       <nav id="site-nav" class="greedy-nav">
@@ -26,4 +29,5 @@
       </nav>
     </div>
   </div>
+  {% endif %}
 </div>

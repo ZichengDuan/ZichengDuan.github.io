@@ -1,0 +1,36 @@
+- company: Alibaba Token Foundry
+  dates: May 2026 – Present
+  location: Beijing, China
+  mentors:
+  - name: Dr. Xinlong Wang
+    url: https://scholar.google.com/citations?user=DPz0DjYAAAAJ&hl=zh-CN
+  topic: Video foundation models and video world models.
+  logo: /images/logos/alibaba.webp
+- company: Alibaba DAMO Academy
+  dates: Jan 2025 – Apr 2025
+  location: Hangzhou, China
+  mentors:
+  - name: Dr. Hao Luo
+    url: https://scholar.google.com/citations?hl=en&user=7QvWnzMAAAAJ&view_op=list_works&sortby=pubdate
+  topic: Multimodal image generation and editing.
+  logo: /images/logos/alibaba.webp
+- company: Leonardo.AI / Canva
+  dates: Feb 2024 – Jul 2024
+  location: Sydney, Australia
+  mentors:
+  - name: Mr. Ethan Smith
+    url: https://www.ethansmith2000.com/
+  - name: Prof. Martin Bell
+    url: https://www.linkedin.com/in/martin-bell-sydney/?originalSubdomain=au
+  topic: Controllable image generation.
+  logo: /images/logos/leonardo.jpeg
+- company: Institute of Automation, Chinese Academy of Sciences
+  dates: Dec 2020 – Dec 2021
+  location: Beijing, China
+  mentors:
+  - name: Prof. Haoran Li
+    url: https://scholar.google.com/citations?hl=zh-CN&user=kalE5UIAAAAJ&view_op=list_works&sortby=pubdate
+  - name: Prof. Dongbin Zhao
+    url: https://scholar.google.com/citations?user=RxvYlNQAAAAJ&hl=en
+  topic: Multi-view 3D understanding systems for object detection.
+  logo: /images/logos/casia.jpeg

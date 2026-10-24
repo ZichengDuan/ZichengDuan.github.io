@@ -1,334 +1,69 @@
 ---
+layout: home
+homepage: true
 permalink: /
-title: "About"
-author_profile: true
+title: "Zicheng Duan"
+excerpt: "Zicheng Duan — Ph.D. student at AIML, University of Adelaide. Research on video foundation models, video world models, and reinforcement learning for generative models."
 redirect_from:
   - /about/
   - /about.html
 ---
 
-I am a final-year Ph.D. student in Computer Science at the [Australian Institute for Machine Learning (AIML), University of Adelaide](https://www.adelaide.edu.au/aiml/), supervised by [Prof. Lingqiao Liu](https://scholar.google.com/citations?user=Y2xu62UAAAAJ&hl=en) and [Dr. Xinyu Zhang](https://zhangxinyu-xyz.github.io/). Before that, I completed my Master's degree at the [Australian National University](https://www.anu.edu.au/), where I worked on multi-camera detection under the supervision of [Prof. Liang Zheng](https://scholar.google.com/citations?hl=en&user=vNHqr3oAAAAJ&view_op=list_works&sortby=pubdate). My current research focuses on Video Foundation Models and Generative World Models. I am also a research intern at Alibaba Token Foundry, working closely with [Dr. Xinlong Wang](https://scholar.google.com/citations?user=DPz0DjYAAAAJ&hl=zh-CN). I am on the job market for Fall 2026 (expected to graduate in early 2027) — feel free to reach out!
+<header class="home-intro" id="about">
+  <p class="home-eyebrow">Computer Science · AIML</p>
+  <h1>Zicheng Duan<span class="home-name-zh" lang="zh">段子成</span></h1>
+  <p class="home-subtitle">Video foundation models &amp; generative world models</p>
+</header>
 
-<p style="color: #d40000; font-weight: bold; font-size: 1.15em; margin-top: 0; margin-bottom: 0;">我正在参加 2026 年秋招,预计于 2027 年上半年毕业,欢迎联系!</p>
+<div class="home-bio" markdown="1">
+I am a final-year Ph.D. student in Computer Science at the [Australian Institute for Machine Learning (AIML), University of Adelaide](https://www.adelaide.edu.au/aiml/), supervised by [Prof. Lingqiao Liu](https://scholar.google.com/citations?user=Y2xu62UAAAAJ&hl=en) and [Dr. Xinyu Zhang](https://zhangxinyu-xyz.github.io/).
 
-<h3 style="margin-top: 1.6em; margin-bottom: 0.6em; font-size: 1.25em;">Research Interests</h3>
+Before that, I completed my Master's degree at the [Australian National University](https://www.anu.edu.au/), where I worked on multi-camera detection under the supervision of [Prof. Liang Zheng](https://scholar.google.com/citations?hl=en&user=vNHqr3oAAAAJ&view_op=list_works&sortby=pubdate).
 
-<div style="border-left: 3px solid #2a7ae2; background: #f6f8fa; padding: 14px 18px; border-radius: 4px; margin-bottom: 1.2em;">
-I am currently interested in how visual generation can work with language-driven intelligence to create <strong>realistic, interactive virtual worlds</strong>, with my current research focusing on video world models, video foundation models, and reinforcement learning for generative models.
+My current research focuses on Video Foundation Models and Generative World Models. I am also a research intern at Alibaba Token Foundry, working closely with [Dr. Xinlong Wang](https://scholar.google.com/citations?user=DPz0DjYAAAAJ&hl=zh-CN).
 </div>
 
-<div style="margin-top: 1.5em;"></div>
-
-News
-======
-- **[Jun 2026]** LiveWorld is accepted to ECCV 2026.
-- **[May 2026]** I have joined <a href="https://baike.baidu.com/item/ATH%E4%BA%8B%E4%B8%9A%E7%BE%A4/67518582?fr=aladdin">Alibaba Group - Alibaba Token Foundry</a> as a full-time research intern, focusing on generative world modeling.
-- **[Mar 2026]** New preprint: <a href="https://arxiv.org/abs/2603.07145">LiveWorld - Simulating Out-of-Sight Dynamics in Generative Video World Models</a>.
-- **[Feb 2026]** Three papers accepted to CVPR 2026.
-- **[Nov 2025]** Invited talk at <a href="https://zhangxinyu-xyz.github.io/vgm-dicta2025/">DICTA 2025 workshop</a> on Generative World Models.
-- **[Oct 2025]** One paper accepted to TMLR.
-
-
-<div style="margin-top: 4em;"></div>
-
-Selected Publications
-======
-
-<h3 style="margin-top: 10px; margin-bottom: 14px; font-size: 1.25em;">Generative World Modeling</h3>
-
-<div style="display: flex; gap: 12px; align-items: center; margin-bottom: 12px; font-size: 0.88em; line-height: 1.45;">
-  <div style="min-width: 220px; max-width: 220px;"><img src="/images/liveworld.jpg" style="width: 100%; border-radius: 3px; border: 1px solid #eee;"></div>
+<div class="home-availability">
+  <span class="home-status-dot" aria-hidden="true"></span>
   <div>
-    <strong>LiveWorld: Simulating Out-of-Sight Dynamics in Generative Video World Models</strong><br>
-    🔥 The first to formulate the <strong><u>decoupling</u></strong> of <strong><u>world state maintenance</u></strong> and <strong><u>observation rendering</u></strong> in generative video world models!<br>
-    <span style="color: #000; font-weight: 700;">Zicheng Duan*</span>, Jiatong Xia*, Zeyu Zhang*, Wenbo Zhang, Gengze Zhou,<br>Chenhui Gou, Yefei He, Feng Chen, Xinyu Zhang, Lingqiao Liu<br>
-    <em>ECCV 2026</em><br>
-    [<a href="/pages/LiveWorld/index.html">Demo Page</a> / <a href="https://arxiv.org/abs/2603.07145">Paper</a> / <a href="https://github.com/ZichengDuan/LiveWorld">Code</a>]
+    <p>I am on the job market for Fall 2026 (expected to graduate in early 2027) — feel free to reach out!</p>
+    <p lang="zh">我正在参加 2026 年秋招，预计于 2027 年上半年毕业，欢迎联系！</p>
   </div>
 </div>
 
-<div style="display: flex; gap: 12px; align-items: center; margin-bottom: 12px; font-size: 0.88em; line-height: 1.45;">
-  <div style="min-width: 220px; max-width: 220px;"><img src="/images/points2-3D_teaser.png" style="width: 100%; border-radius: 3px; border: 1px solid #eee;"></div>
-  <div>
-    <strong>Points-to-3D: Structure-Aware 3D Generation with Point Cloud Priors</strong><br>
-    Jiatong Xia*, <span style="color: #000; font-weight: 700;">Zicheng Duan*</span>, Anton van den Hengel, Lingqiao Liu<br>
-    <em>CVPR 2026</em><br>
-    [<a href="https://jiatongxia.github.io/points2-3D/">Demo Page</a> / <a href="https://arxiv.org/pdf/2603.18782">Paper</a>]
+<section class="home-interests" aria-labelledby="interests-title">
+  <h2 id="interests-title">Research interests</h2>
+  <p>I am currently interested in how visual generation can work with language-driven intelligence to create <strong>realistic, interactive virtual worlds</strong>, with my current research focusing on video world/foundation models, reinforcement learning for generative models, and code-to-anything.</p>
+</section>
+
+{% include home/news.html %}
+{% include home/research.html %}
+{% include home/internships.html %}
+
+<section class="home-section" id="activities" aria-labelledby="activities-title">
+  <div class="home-section-heading"><h2 id="activities-title">Beyond the papers</h2></div>
+  <div class="home-activity home-talk">
+    <p class="home-eyebrow">Invited talk</p>
+    <h3>Controllability Matters: Interpreting World Models from a Controllability Perspective</h3>
+    <p><a href="https://zhangxinyu-xyz.github.io/vgm-dicta2025/">DICTA 2025 Workshop — Visual Generative Models: Past, Present, and Future</a></p>
+    <a class="home-text-link" href="{{ '/files/DICTA2025_talk.pdf' | relative_url }}">View slides <span aria-hidden="true">↗</span></a>
   </div>
-</div>
-
-<div style="display: flex; gap: 12px; align-items: center; margin-bottom: 12px; font-size: 0.88em; line-height: 1.45;">
-  <div style="min-width: 220px; max-width: 220px;"><img src="/images/pipeline.png" style="width: 100%; border-radius: 3px; border: 1px solid #eee;"></div>
-  <div>
-    <strong>VQ-VA World: Towards High-Quality Visual Question-Visual Answering</strong><br>
-    Chenhui Gou*, Zilong Chen*, Zeyu Wang*, Feng Li, Deyao Zhu, <span style="color: #000; font-weight: 700;">Zicheng Duan</span>, Kunchang Li, Chaorui Deng, Hongyi Yuan, Haoqi Fan, Cihang Xie, Jianfei Cai, Hamid Rezatofighi<br>
-    <em>CVPR 2026</em><br>
-    [<a href="https://chenhuigou.github.io/VQ-VA-World/">Demo Page</a> / <a href="https://arxiv.org/abs/2511.20573">Paper</a>]
+  <div class="home-activity-grid">
+    <div class="home-activity">
+      <p class="home-eyebrow">Project</p>
+      <h3>The Chosen One</h3>
+      <p>Unofficial implementation, selected as the official implementation by the author.</p>
+      <a class="home-text-link" href="https://github.com/ZichengDuan/TheChosenOne">View code <span aria-hidden="true">↗</span></a>
+      <a class="home-text-link" href="https://arxiv.org/abs/2311.10093">Paper <span aria-hidden="true">↗</span></a>
+    </div>
+    <div class="home-activity">
+      <p class="home-eyebrow">Competition</p>
+      <h3>ICRA 2021 RoboMaster</h3>
+      <p>ICRA 2021 Workshop RoboMaster Competition<br>Team Neurons · Ranked 6 / 26</p>
+    </div>
   </div>
-</div>
-
-<h3 style="margin-top: 24px; margin-bottom: 14px; font-size: 1.25em;">Contrtollable Content Generation</h3>
-
-<div style="display: flex; gap: 12px; align-items: center; margin-bottom: 12px; font-size: 0.88em; line-height: 1.45;">
-  <div style="min-width: 220px; max-width: 220px;"><img src="/images/teaser_large.png" style="width: 100%; border-radius: 3px; border: 1px solid #eee;"></div>
-  <div>
-    <strong>EZIGen: Enhancing zero-shot personalized image generation with precise subject encoding and decoupled guidance</strong><br>
-    <span style="color: #000; font-weight: 700;">Zicheng Duan</span>, Yuxuan Ding, Chenhui Gou, Ziqin Zhou, Ethan Smith, Lingqiao Liu<br>
-    <em>BMVC 2025</em><br>
-    [<a href="/pages/EZIGen/index.html">Demo Page</a> / <a href="http://arxiv.org/abs/2409.08091">Paper</a> / <a href="https://github.com/ZichengDuan/EZIGen">Code</a>]
+  <div class="home-service">
+    <h3>Academic service</h3>
+    <p><span>Reviewer</span> CVPR’26, AAAI’25, DICTA’25, NeurIPS’24, ICASSP’24</p>
   </div>
-</div>
-
-<div style="display: flex; gap: 12px; align-items: center; margin-bottom: 12px; font-size: 0.88em; line-height: 1.45;">
-  <div style="min-width: 220px; max-width: 220px;"><img src="/images/SimulateMotion-480.webp" style="width: 100%; border-radius: 3px; border: 1px solid #eee;"></div>
-  <div>
-    <strong>Training-Free Motion-Guided Video Generation with Enhanced Temporal Consistency Using Motion Consistency Loss</strong><br>
-    Xinyu Zhang, <span style="color: #000; font-weight: 700;">Zicheng Duan</span>, Dong Gong, Lingqiao Liu<br>
-    <em>BMVC 2025</em><br>
-    [<a href="https://zhangxinyu-xyz.github.io/SimulateMotion.github.io/">Demo Page</a> / <a href="https://arxiv.org/abs/2501.07563v1">Paper</a>]
-  </div>
-</div>
-
-<div style="display: flex; gap: 12px; align-items: center; margin-bottom: 12px; font-size: 0.88em; line-height: 1.45;">
-  <div style="min-width: 220px; max-width: 220px;"><img src="/images/vertical_concat.gif" style="width: 100%; border-radius: 3px; border: 1px solid #eee;"></div>
-  <div>
-    <strong>Let Your Video Listen to Your Music!</strong><br>
-    Xinyu Zhang, Dong Gong, <span style="color: #000; font-weight: 700;">Zicheng Duan</span>, Anton van den Hengel, Lingqiao Liu<br>
-    <em>ACM MM 2025</em><br>
-    [<a href="https://zhangxinyu-xyz.github.io/MVAA/">Demo Page</a> / <a href="https://arxiv.org/abs/2506.18881">Paper</a>]
-  </div>
-</div>
-
-<details markdown="1">
-<summary style="cursor: pointer; font-size: 1.2em; font-weight: 700; margin-top: 24px; margin-bottom: 16px; padding: 10px 0; color: #494e52; border-top: 1px solid #ddd;">All Publications (click to expand)</summary>
-
-<div style="display: flex; gap: 12px; align-items: center; margin-bottom: 12px; font-size: 0.88em; line-height: 1.45; margin-top: 16px;">
-  <div style="min-width: 220px; max-width: 220px;"><img src="/images/terravis-taxonomy.jpg" alt="TerraVis taxonomy of world-consistency violations" loading="lazy" style="width: 100%; border-radius: 3px; border: 1px solid #eee;"></div>
-  <div>
-    <strong>TerraVis: Towards Evaluation of World-Grounded Visual Consistency in Text-to-Image Generation via MLLM Workflows</strong><br>
-    Shuai Fu, Jing Gu, Jian Zhou, <span style="color: #000; font-weight: 700;">Zicheng Duan</span>, Gengze Zhou, Qi Wu<br>
-    <em>NeurIPS 2026 (Evaluations and Datasets Track)</em><br>
-    [<a href="https://shyfoo.github.io/TerraVis-web/">Demo Page</a> / <a href="https://arxiv.org/abs/2610.02959">Paper</a> / <a href="https://github.com/ShyFoo/TerraVis">Code</a> / <a href="https://huggingface.co/datasets/ShyFoo/TerraVis-Annotations">Dataset</a>]
-  </div>
-</div>
-
-<div style="display: flex; gap: 12px; align-items: center; margin-bottom: 12px; font-size: 0.88em; line-height: 1.45;">
-  <div style="min-width: 220px; max-width: 220px;"><img src="/images/latent-spatial-memory.png" alt="Latent spatial memory compared with RGB point-cloud memory" loading="lazy" style="width: 100%; border-radius: 3px; border: 1px solid #eee;"></div>
-  <div>
-    <strong>Latent Spatial Memory for Video World Models</strong><br>
-    Weijie Wang*, Haoyu Zhao*, Yifan Yang, Feng Chen, Zeyu Zhang, Yefei He, <span style="color: #000; font-weight: 700;">Zicheng Duan</span>, Donny Y. Chen, Yuqing Yang, Bohan Zhuang<br>
-    <em>arXiv preprint (2026)</em><br>
-    [<a href="https://microsoft.github.io/LatentSpatialMemory/">Demo Page</a> / <a href="https://arxiv.org/abs/2606.09828">Paper</a> / <a href="https://github.com/microsoft/LatentSpatialMemory">Code</a>]
-  </div>
-</div>
-
-<div style="display: flex; gap: 12px; align-items: center; margin-bottom: 12px; font-size: 0.88em; line-height: 1.45; margin-top: 16px;">
-  <div style="min-width: 220px; max-width: 220px;"><img src="/images/liveworld.jpg" style="width: 100%; border-radius: 3px; border: 1px solid #eee;"></div>
-  <div>
-    <strong>LiveWorld: Simulating Out-of-Sight Dynamics in Generative Video World Models</strong><br>
-    🔥 The first to formulate the <strong><u>decoupling</u></strong> of <strong><u>world state maintenance</u></strong> and <strong><u>observation rendering</u></strong> in generative video world models!<br>
-    <span style="color: #000; font-weight: 700;">Zicheng Duan*</span>, Jiatong Xia*, Zeyu Zhang*, Wenbo Zhang, Gengze Zhou,<br>Chenhui Gou, Yefei He, Feng Chen, Xinyu Zhang, Lingqiao Liu<br>
-    <em>ECCV 2026</em><br>
-    [<a href="/pages/LiveWorld/index.html">Demo Page</a> / <a href="https://arxiv.org/abs/2603.07145">Paper</a> / <a href="https://github.com/ZichengDuan/LiveWorld">Code</a>]
-  </div>
-</div>
-
-<div style="display: flex; gap: 12px; align-items: center; margin-bottom: 12px; font-size: 0.88em; line-height: 1.45;">
-  <div style="min-width: 220px; max-width: 220px;"><img src="/images/points2-3D_teaser.png" style="width: 100%; border-radius: 3px; border: 1px solid #eee;"></div>
-  <div>
-    <strong>Points-to-3D: Structure-Aware 3D Generation with Point Cloud Priors</strong><br>
-    Jiatong Xia*, <span style="color: #000; font-weight: 700;">Zicheng Duan*</span>, Anton van den Hengel, Lingqiao Liu<br>
-    <em>CVPR 2026</em><br>
-    [<a href="https://jiatongxia.github.io/points2-3D/">Demo Page</a> / <a href="https://arxiv.org/pdf/2603.18782">Paper</a>]
-  </div>
-</div>
-
-<div style="display: flex; gap: 12px; align-items: center; margin-bottom: 12px; font-size: 0.88em; line-height: 1.45;">
-  <div style="min-width: 220px; max-width: 220px;"><img src="/images/pipeline.png" style="width: 100%; border-radius: 3px; border: 1px solid #eee;"></div>
-  <div>
-    <strong>VQ-VA World: Towards High-Quality Visual Question-Visual Answering</strong><br>
-    Chenhui Gou*, Zilong Chen*, Zeyu Wang*, Feng Li, Deyao Zhu, <span style="color: #000; font-weight: 700;">Zicheng Duan</span>, Kunchang Li, Chaorui Deng, Hongyi Yuan, Haoqi Fan, Cihang Xie, Jianfei Cai, Hamid Rezatofighi<br>
-    <em>CVPR 2026</em><br>
-    [<a href="https://chenhuigou.github.io/VQ-VA-World/">Demo Page</a> / <a href="https://arxiv.org/abs/2511.20573">Paper</a>]
-  </div>
-</div>
-
-<div style="display: flex; gap: 12px; align-items: center; margin-bottom: 12px; font-size: 0.88em; line-height: 1.45;">
-  <div style="min-width: 220px; max-width: 220px;"><img src="/images/teaser_large.png" style="width: 100%; border-radius: 3px; border: 1px solid #eee;"></div>
-  <div>
-    <strong>An empirical study on how video-LLMs answer video questions</strong><br>
-    Chenhui Gou, Ziyu Ma, <span style="color: #000; font-weight: 700;">Zicheng Duan</span>, Haoyu He, Feng Chen, Akide Liu, Bohan Zhuang, Jianfei Cai, Hamid Rezatofighi<br>
-    <em>CVPR 2026</em><br>
-    [<a href="https://arxiv.org/abs/2508.15360">Paper</a>]
-  </div>
-</div>
-
-<div style="display: flex; gap: 12px; align-items: center; margin-bottom: 12px; font-size: 0.88em; line-height: 1.45;">
-  <div style="min-width: 220px; max-width: 220px;"><img src="/images/teaser_large.png" style="width: 100%; border-radius: 3px; border: 1px solid #eee;"></div>
-  <div>
-    <strong>EZIGen: Enhancing zero-shot personalized image generation with precise subject encoding and decoupled guidance</strong><br>
-    <span style="color: #000; font-weight: 700;">Zicheng Duan</span>, Yuxuan Ding, Chenhui Gou, Ziqin Zhou, Ethan Smith, Lingqiao Liu<br>
-    <em>BMVC 2025</em><br>
-    [<a href="/pages/EZIGen/index.html">Demo Page</a> / <a href="http://arxiv.org/abs/2409.08091">Paper</a> / <a href="https://github.com/ZichengDuan/EZIGen">Code</a>]
-  </div>
-</div>
-
-<div style="display: flex; gap: 12px; align-items: center; margin-bottom: 12px; font-size: 0.88em; line-height: 1.45;">
-  <div style="min-width: 220px; max-width: 220px;"><img src="/images/SimulateMotion-480.webp" style="width: 100%; border-radius: 3px; border: 1px solid #eee;"></div>
-  <div>
-    <strong>Training-Free Motion-Guided Video Generation with Enhanced Temporal Consistency Using Motion Consistency Loss</strong><br>
-    Xinyu Zhang, <span style="color: #000; font-weight: 700;">Zicheng Duan</span>, Dong Gong, Lingqiao Liu<br>
-    <em>BMVC 2025</em><br>
-    [<a href="https://zhangxinyu-xyz.github.io/SimulateMotion.github.io/">Demo Page</a> / <a href="https://arxiv.org/abs/2501.07563v1">Paper</a>]
-  </div>
-</div>
-
-<div style="display: flex; gap: 12px; align-items: center; margin-bottom: 12px; font-size: 0.88em; line-height: 1.45;">
-  <div style="min-width: 220px; max-width: 220px;"><img src="/images/vertical_concat.gif" style="width: 100%; border-radius: 3px; border: 1px solid #eee;"></div>
-  <div>
-    <strong>Let Your Video Listen to Your Music!</strong><br>
-    Xinyu Zhang, Dong Gong, <span style="color: #000; font-weight: 700;">Zicheng Duan</span>, Anton van den Hengel, Lingqiao Liu<br>
-    <em>ACM MM 2025</em><br>
-    [<a href="https://zhangxinyu-xyz.github.io/MVAA/">Demo Page</a> / <a href="https://arxiv.org/abs/2506.18881">Paper</a>]
-  </div>
-</div>
-
-<div style="display: flex; gap: 12px; align-items: center; margin-bottom: 12px; font-size: 0.88em; line-height: 1.45;">
-  <div style="min-width: 220px; max-width: 220px;"><img src="/images/frame-wise_conditioning.vV3yeDdM_Z2pvVQq.webp" style="width: 100%; border-radius: 3px; border: 1px solid #eee;"></div>
-  <div>
-    <strong>Frame-wise Conditioning Adaptation for Fine-Tuning Diffusion Models in Text-to-Video Prediction</strong><br>
-    Zheyuan Liu, Junyan Wang, <span style="color: #000; font-weight: 700;">Zicheng Duan</span>, Cristian Rodriguez-Opazo, Anton Van Den Hengel<br>
-    <em>TMLR (2025)</em><br>
-    [<a href="https://arxiv.org/abs/2503.12953">Paper</a>]
-  </div>
-</div>
-
-<div style="display: flex; gap: 12px; align-items: center; margin-bottom: 12px; font-size: 0.88em; line-height: 1.45;">
-  <div style="min-width: 220px; max-width: 220px;"><img src="/images/MvCHM.jpg" style="width: 100%; border-radius: 3px; border: 1px solid #eee;"></div>
-  <div>
-    <strong>Multiview Detection with Cardboard Human Modeling</strong><br>
-    Jiahao Ma*, <span style="color: #000; font-weight: 700;">Zicheng Duan*</span>, Liang Zheng, Chuong-Nguyen<br>
-    <em>ACCV 2024</em><br>
-    [<a href="https://arxiv.org/abs/2207.02013">Paper</a> / <a href="https://github.com/Jiahao-Ma/MvCHM">Code</a>]
-  </div>
-</div>
-
-<div style="display: flex; gap: 12px; align-items: center; margin-bottom: 12px; font-size: 0.88em; line-height: 1.45;">
-  <div style="min-width: 220px; max-width: 220px;"><img src="/images/VFA.png" style="width: 100%; border-radius: 3px; border: 1px solid #eee;"></div>
-  <div>
-    <strong>Voxelized 3D Feature Aggregation for Multiview Detection</strong><br>
-    Jiahao Ma, Jinguang Tong, Shan Wang, <span style="color: #000; font-weight: 700;">Zicheng Duan</span>, Liang Zheng, Chuong-Nguyen<br>
-    <em>DICTA 2024</em><br>
-    [<a href="https://arxiv.org/abs/2112.03471">Paper</a> / <a href="https://github.com/Robert-Mar/VFA">Code</a> / <a href="https://github.com/Robert-Mar/MultiviewC">Dataset</a>]
-  </div>
-</div>
-
-<div style="display: flex; gap: 12px; align-items: center; margin-bottom: 12px; font-size: 0.88em; line-height: 1.45;">
-  <div style="min-width: 220px; max-width: 220px;"><img src="/images/robot.png" style="width: 100%; border-radius: 3px; border: 1px solid #eee;"></div>
-  <div>
-    <strong>Neurons perception dataset for RoboMaster AI challenge</strong><br>
-    Haoran Li, <span style="color: #000; font-weight: 700;">Zicheng Duan</span>, Jiaqi Li, Mingjun Ma, Yaran Chen, Doingbin Zhao<br>
-    <em>IJCNN 2022</em><br>
-    [<a href="https://ieeexplore.ieee.org/abstract/document/9275984?casa_token=ihDf3zbTr-0AAAAA:rkcP1yd_zTa8A3Yq5H-yowLziPj3ad57nNgeUEkMk4b05J_GUfIgEhTKCeD4DjXf9T9zwHeKIQ">Paper</a> / <a href="https://github.com/DRL-CASIA/NeuronsDataset">Code</a>]
-  </div>
-</div>
-
-<div style="display: flex; gap: 12px; align-items: center; margin-bottom: 12px; font-size: 0.88em; line-height: 1.45;">
-  <div style="min-width: 220px; max-width: 220px;"><img src="/images/MVM3Det.png" style="width: 100%; border-radius: 3px; border: 1px solid #eee;"></div>
-  <div>
-    <strong>MVM3Det: A Novel Method for Multi-view Monocular 3D Detection</strong><br>
-    Haoran Li, <span style="color: #000; font-weight: 700;">Zicheng Duan</span>, Mingjun Ma, Yaran Chen, Jiaqi Li, Doingbin Zhao<br>
-    <em>arXiv preprint (2021)</em><br>
-    [<a href="https://arxiv.org/pdf/2109.10473">Paper</a> / <a href="https://github.com/DRL-CASIA/MVM3D">Code</a>]
-  </div>
-</div>
-
-</details>
-
-<div style="margin-top: 4em;"></div>
-
-Internships
-======
-
-<div style="display: flex; gap: 20px; align-items: flex-start; margin-bottom: 24px; font-size: 0.88em; line-height: 1.5;">
-  <img src="/images/logos/alibaba.webp" alt="Alibaba logo" width="72" height="72" loading="lazy" style="flex: 0 0 72px; object-fit: contain;">
-  <div style="min-width: 0;">
-    <strong>Alibaba Token Foundry</strong><br>
-    May 2026 – Present · Beijing, China<br>
-    Mentor: <a href="https://scholar.google.com/citations?user=DPz0DjYAAAAJ&amp;hl=zh-CN">Dr. Xinlong Wang</a><br>
-    Topic: Video foundation models and video world models.
-  </div>
-</div>
-
-<div style="display: flex; gap: 20px; align-items: flex-start; margin-bottom: 24px; font-size: 0.88em; line-height: 1.5;">
-  <img src="/images/logos/alibaba.webp" alt="Alibaba logo" width="72" height="72" loading="lazy" style="flex: 0 0 72px; object-fit: contain;">
-  <div style="min-width: 0;">
-    <strong>Alibaba DAMO Academy</strong><br>
-    Jan 2025 – Apr 2025 · Hangzhou, China<br>
-    Mentor: <a href="https://scholar.google.com/citations?hl=en&amp;user=7QvWnzMAAAAJ&amp;view_op=list_works&amp;sortby=pubdate">Dr. Hao Luo</a><br>
-    Topic: Multimodal image generation and editing.
-  </div>
-</div>
-
-<div style="display: flex; gap: 20px; align-items: flex-start; margin-bottom: 24px; font-size: 0.88em; line-height: 1.5;">
-  <img src="/images/logos/leonardo.jpeg" alt="Leonardo.AI logo" width="72" height="72" loading="lazy" style="flex: 0 0 72px; object-fit: contain;">
-  <div style="min-width: 0;">
-    <strong>Leonardo.AI / Canva</strong><br>
-    Feb 2024 – Jul 2024 · Sydney, Australia<br>
-    Mentors: <a href="https://www.ethansmith2000.com/">Mr. Ethan Smith</a>, <a href="https://www.linkedin.com/in/martin-bell-sydney/?originalSubdomain=au">Prof. Martin Bell</a><br>
-    Topic: Controllable image generation.
-  </div>
-</div>
-
-<div style="display: flex; gap: 20px; align-items: flex-start; margin-bottom: 24px; font-size: 0.88em; line-height: 1.5;">
-  <img src="/images/logos/casia.jpeg" alt="Institute of Automation, Chinese Academy of Sciences logo" width="72" height="72" loading="lazy" style="flex: 0 0 72px; object-fit: contain;">
-  <div style="min-width: 0;">
-    <strong>Institute of Automation, Chinese Academy of Sciences</strong><br>
-    Dec 2020 – Dec 2021 · Beijing, China<br>
-    Mentors: <a href="https://scholar.google.com/citations?hl=zh-CN&amp;user=kalE5UIAAAAJ&amp;view_op=list_works&amp;sortby=pubdate">Prof. Haoran Li</a>, <a href="https://scholar.google.com/citations?user=RxvYlNQAAAAJ&amp;hl=en">Prof. Dongbin Zhao</a><br>
-    Topic: Multi-view 3D understanding systems for object detection.
-  </div>
-</div>
-
-<div style="margin-top: 4em;"></div>
-
-Projects
-======
-
-<div style="display: flex; gap: 12px; align-items: center; margin-bottom: 12px; font-size: 0.88em; line-height: 1.45;">
-  <div style="min-width: 220px; max-width: 220px;"><img src="/images/thechosenone.png" style="width: 100%; border-radius: 3px; border: 1px solid #eee;"></div>
-  <div>
-    <strong>Unofficial implementation of paper The Chosen One</strong><br>
-    Selected as the official implementation by the author.<br>
-    [<a href="https://arxiv.org/pdf/2109.10473">Paper</a> / <a href="https://github.com/ZichengDuan/TheChosenOne">Code</a>]
-  </div>
-</div>
-
-<div style="margin-top: 4em;"></div>
-
-Competitions
-======
-
-<div style="display: flex; gap: 12px; align-items: center; margin-bottom: 12px; font-size: 0.88em; line-height: 1.45;">
-  <div style="min-width: 220px; max-width: 220px;"><img src="/images/RMUA.jpg" style="width: 100%; border-radius: 3px; border: 1px solid #eee;"></div>
-  <div>
-    <strong>ICRA 2021 Workshop RoboMaster Competition</strong><br>
-    Team Neurons, ranks 6/26
-  </div>
-</div>
-
-<div style="margin-top: 4em;"></div>
-
-Academic Services
-======
-
-**Reviewer:** CVPR'26, AAAI'25, DICTA'25, NeurIPS'24, ICASSP'24
-
-<div style="margin-top: 4em;"></div>
-
-Talks
-======
-
-- **Controllability Matters: Interpreting World Models from a Controllability Perspective**
-  <br><a href="https://zhangxinyu-xyz.github.io/vgm-dicta2025/">DICTA 2025 Workshop — Visual Generative Models: Past, Present, and Future</a>
-  <br>[<a href="/files/DICTA2025_talk.pdf">Slides</a>]
+</section>

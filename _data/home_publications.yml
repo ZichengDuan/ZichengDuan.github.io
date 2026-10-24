@@ -1,0 +1,179 @@
+# Shared by selected research and the complete bibliography.
+- title: 'TerraVis: Towards Evaluation of World-Grounded Visual Consistency in Text-to-Image Generation via MLLM Workflows'
+  authors: Shuai Fu, Jing Gu, Jian Zhou, <strong class="author-self">Zicheng Duan</strong>, Gengze Zhou, Qi Wu
+  venue: NeurIPS 2026 (Evaluations and Datasets Track)
+  links:
+  - label: Project
+    url: https://shyfoo.github.io/TerraVis-web/
+  - label: Paper
+    url: https://arxiv.org/abs/2610.02959
+  - label: Code
+    url: https://github.com/ShyFoo/TerraVis
+  - label: Dataset
+    url: https://huggingface.co/datasets/ShyFoo/TerraVis-Annotations
+  image: /images/terravis-taxonomy.jpg
+  id: terravis
+  preview: /images/home/terravis.webp
+- title: Latent Spatial Memory for Video World Models
+  authors: Weijie Wang*, Haoyu Zhao*, Yifan Yang, Feng Chen, Zeyu Zhang, Yefei He, <strong class="author-self">Zicheng Duan</strong>, Donny Y. Chen, Yuqing
+    Yang, Bohan Zhuang
+  venue: arXiv preprint (2026)
+  links:
+  - label: Project
+    url: https://microsoft.github.io/LatentSpatialMemory/
+  - label: Paper
+    url: https://arxiv.org/abs/2606.09828
+  - label: Code
+    url: https://github.com/microsoft/LatentSpatialMemory
+  image: /images/latent-spatial-memory.png
+  id: latent-spatial-memory
+  preview: /images/home/latent-spatial-memory.webp
+- title: 'LiveWorld: Simulating Out-of-Sight Dynamics in Generative Video World Models'
+  authors: <strong class="author-self">Zicheng Duan*</strong>, Jiatong Xia*, Zeyu Zhang*, Wenbo Zhang, Gengze Zhou, Chenhui Gou, Yefei He, Feng Chen, Xinyu
+    Zhang, Lingqiao Liu
+  venue: ECCV 2026
+  links:
+  - label: Project
+    url: /pages/LiveWorld/index.html
+  - label: Paper
+    url: https://arxiv.org/abs/2603.07145
+  - label: Code
+    url: https://github.com/ZichengDuan/LiveWorld
+  image: /images/liveworld.jpg
+  selected: true
+  group: Generative World Modeling
+  preview: /images/home/liveworld.webp
+  id: liveworld
+  highlight: <span class="home-flame" aria-hidden="true">🔥</span> The first to formulate the <strong><u>decoupling</u></strong> of <strong><u>world state maintenance</u></strong> and <strong><u>observation rendering</u></strong> in generative video world models!
+- title: 'Points-to-3D: Structure-Aware 3D Generation with Point Cloud Priors'
+  authors: Jiatong Xia*, <strong class="author-self">Zicheng Duan*</strong>, Anton van den Hengel, Lingqiao Liu
+  venue: CVPR 2026
+  links:
+  - label: Project
+    url: https://jiatongxia.github.io/points2-3D/
+  - label: Paper
+    url: https://arxiv.org/pdf/2603.18782
+  image: /images/points2-3D_teaser.png
+  selected: true
+  group: Generative World Modeling
+  preview: /images/home/points-to-3d.webp
+  id: points-to-3d
+- title: 'VQ-VA World: Towards High-Quality Visual Question-Visual Answering'
+  authors: Chenhui Gou*, Zilong Chen*, Zeyu Wang*, Feng Li, Deyao Zhu, <strong class="author-self">Zicheng Duan</strong>, Kunchang Li, Chaorui Deng, Hongyi
+    Yuan, Haoqi Fan, Cihang Xie, Jianfei Cai, Hamid Rezatofighi
+  venue: CVPR 2026
+  links:
+  - label: Project
+    url: https://chenhuigou.github.io/VQ-VA-World/
+  - label: Paper
+    url: https://arxiv.org/abs/2511.20573
+  image: /images/pipeline.png
+  selected: true
+  group: Generative World Modeling
+  preview: /images/home/vq-va-world.webp
+  id: vq-va-world
+- title: An empirical study on how video-LLMs answer video questions
+  authors: Chenhui Gou, Ziyu Ma, <strong class="author-self">Zicheng Duan</strong>, Haoyu He, Feng Chen, Akide Liu, Bohan Zhuang, Jianfei Cai, Hamid Rezatofighi
+  venue: CVPR 2026
+  links:
+  - label: Paper
+    url: https://arxiv.org/abs/2508.15360
+  image: /images/teaser_large.png
+  id: video-llms
+  preview: /images/home/video-llms.webp
+- title: 'EZIGen: Enhancing zero-shot personalized image generation with precise subject encoding and decoupled guidance'
+  authors: <strong class="author-self">Zicheng Duan</strong>, Yuxuan Ding, Chenhui Gou, Ziqin Zhou, Ethan Smith, Lingqiao Liu
+  venue: BMVC 2025
+  links:
+  - label: Project
+    url: /pages/EZIGen/index.html
+  - label: Paper
+    url: http://arxiv.org/abs/2409.08091
+  - label: Code
+    url: https://github.com/ZichengDuan/EZIGen
+  image: /images/teaser_large.png
+  selected: true
+  group: Controllable Content Generation
+  preview: /images/home/ezigen.webp
+  id: ezigen
+- title: Training-Free Motion-Guided Video Generation with Enhanced Temporal Consistency Using Motion Consistency Loss
+  authors: Xinyu Zhang, <strong class="author-self">Zicheng Duan</strong>, Dong Gong, Lingqiao Liu
+  venue: BMVC 2025
+  links:
+  - label: Project
+    url: https://zhangxinyu-xyz.github.io/SimulateMotion.github.io/
+  - label: Paper
+    url: https://arxiv.org/abs/2501.07563v1
+  image: /images/SimulateMotion-480.webp
+  selected: true
+  group: Controllable Content Generation
+  preview: /images/home/simulate-motion.webp
+  id: simulate-motion
+- title: Let Your Video Listen to Your Music!
+  authors: Xinyu Zhang, Dong Gong, <strong class="author-self">Zicheng Duan</strong>, Anton van den Hengel, Lingqiao Liu
+  venue: ACM MM 2025
+  links:
+  - label: Project
+    url: https://zhangxinyu-xyz.github.io/MVAA/
+  - label: Paper
+    url: https://arxiv.org/abs/2506.18881
+  image: /images/vertical_concat.gif
+  selected: true
+  group: Controllable Content Generation
+  preview: /images/home/music-video.webp
+  id: music-video
+- title: Frame-wise Conditioning Adaptation for Fine-Tuning Diffusion Models in Text-to-Video Prediction
+  authors: Zheyuan Liu, Junyan Wang, <strong class="author-self">Zicheng Duan</strong>, Cristian Rodriguez-Opazo, Anton Van Den Hengel
+  venue: TMLR (2025)
+  links:
+  - label: Paper
+    url: https://arxiv.org/abs/2503.12953
+  image: /images/frame-wise_conditioning.vV3yeDdM_Z2pvVQq.webp
+  id: frame-wise
+  preview: /images/home/frame-wise.webp
+- title: Multiview Detection with Cardboard Human Modeling
+  authors: Jiahao Ma*, <strong class="author-self">Zicheng Duan*</strong>, Liang Zheng, Chuong-Nguyen
+  venue: ACCV 2024
+  links:
+  - label: Paper
+    url: https://arxiv.org/abs/2207.02013
+  - label: Code
+    url: https://github.com/Jiahao-Ma/MvCHM
+  image: /images/MvCHM.jpg
+  id: mvchm
+  preview: /images/home/mvchm.webp
+- title: Voxelized 3D Feature Aggregation for Multiview Detection
+  authors: Jiahao Ma, Jinguang Tong, Shan Wang, <strong class="author-self">Zicheng Duan</strong>, Liang Zheng, Chuong-Nguyen
+  venue: DICTA 2024
+  links:
+  - label: Paper
+    url: https://arxiv.org/abs/2112.03471
+  - label: Code
+    url: https://github.com/Robert-Mar/VFA
+  - label: Dataset
+    url: https://github.com/Robert-Mar/MultiviewC
+  image: /images/VFA.png
+  id: vfa
+  preview: /images/home/vfa.webp
+- title: Neurons perception dataset for RoboMaster AI challenge
+  authors: Haoran Li, <strong class="author-self">Zicheng Duan</strong>, Jiaqi Li, Mingjun Ma, Yaran Chen, Doingbin Zhao
+  venue: IJCNN 2022
+  links:
+  - label: Paper
+    url: https://ieeexplore.ieee.org/abstract/document/9275984?casa_token=ihDf3zbTr-0AAAAA:rkcP1yd_zTa8A3Yq5H-yowLziPj3ad57nNgeUEkMk4b05J_GUfIgEhTKCeD4DjXf9T9zwHeKIQ
+  - label: Code
+    url: https://github.com/DRL-CASIA/NeuronsDataset
+  image: /images/robot.png
+  id: neurons
+  preview: /images/home/neurons.webp
+- title: 'MVM3Det: A Novel Method for Multi-view Monocular 3D Detection'
+  authors: Haoran Li, <strong class="author-self">Zicheng Duan</strong>, Mingjun Ma, Yaran Chen, Jiaqi Li, Doingbin Zhao
+  venue: arXiv preprint (2021)
+  links:
+  - label: Paper
+    url: https://arxiv.org/pdf/2109.10473
+  - label: Code
+    url: https://github.com/DRL-CASIA/MVM3D
+  image: /images/MVM3Det.png
+  id: mvm3det
+  preview: /images/home/mvm3det.webp

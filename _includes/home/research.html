@@ -1,0 +1,25 @@
+<section class="home-section" id="research" aria-labelledby="research-title">
+  <div class="home-section-heading">
+    <h2 id="research-title">Selected research</h2>
+    <a class="home-section-link" href="#all-publications">All publications <span aria-hidden="true">↓</span></a>
+  </div>
+  {% assign groups = 'Generative World Modeling|Controllable Content Generation' | split: '|' %}
+  {% for group in groups %}
+  <div class="home-research-group">
+    <h3>{{ group }}</h3>
+    {% for paper in site.data.home_publications %}
+      {% if paper.selected and paper.group == group %}{% include home/publication.html paper=paper %}{% endif %}
+    {% endfor %}
+  </div>
+  {% endfor %}
+  <details class="home-bibliography" id="all-publications">
+    <summary><span>All publications <span class="home-count">{{ site.data.home_publications.size }}</span></span><span class="home-expand" aria-hidden="true">+</span></summary>
+    <ol class="home-publication-list">
+      {% for paper in site.data.home_publications %}
+      <li>
+        {% include home/publication.html paper=paper heading="h3" id_prefix="all-paper" %}
+      </li>
+      {% endfor %}
+    </ol>
+  </details>
+</section>

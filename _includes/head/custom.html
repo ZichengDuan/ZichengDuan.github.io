@@ -15,3 +15,7 @@
 <meta name="theme-color" content="#ffffff"/>
 
 <!-- end custom head snippets -->
+{% if page.homepage %}
+<link rel="stylesheet" href="{{ '/assets/css/home.css' | relative_url }}">
+<script src="{{ '/assets/js/home-theme.js' | relative_url }}"></script>
+{% endif %}

@@ -1,3 +1,7 @@
+{% if page.homepage %}
+<script src="{{ '/assets/js/home.js' | relative_url }}" defer></script>
+{% else %}
 <script type="module" src="{{ base_path }}/assets/js/main.min.js"></script>
+{% endif %}
 
 {% include analytics.html %}

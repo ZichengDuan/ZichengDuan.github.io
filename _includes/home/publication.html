@@ -1,0 +1,16 @@
+{% assign paper = include.paper %}
+{% assign heading = include.heading | default: "h4" %}
+<article class="home-paper" id="{{ include.id_prefix | default: "paper" }}-{{ paper.id }}">
+  <a class="home-paper-image" href="{% if paper.links.first.url contains '://' %}{{ paper.links.first.url }}{% else %}{{ paper.links.first.url | relative_url }}{% endif %}" aria-label="View {{ paper.title | escape }}">
+    <img src="{{ paper.preview | relative_url }}" alt="{{ paper.title | escape }} — research overview" width="640" height="425" loading="lazy">
+  </a>
+  <div class="home-paper-body">
+    <p class="home-venue">{{ paper.venue }}</p>
+    <{{ heading }} class="home-paper-title"><a href="{% if paper.links.first.url contains '://' %}{{ paper.links.first.url }}{% else %}{{ paper.links.first.url | relative_url }}{% endif %}">{{ paper.title }}</a></{{ heading }}>
+    {% if paper.highlight %}<p class="home-paper-highlight">{{ paper.highlight }}</p>{% endif %}
+    <p class="home-authors">{{ paper.authors }}</p>
+    <div class="home-paper-links" aria-label="Resources for {{ paper.title | escape }}">
+      {% for link in paper.links %}<a href="{% if link.url contains '://' %}{{ link.url }}{% else %}{{ link.url | relative_url }}{% endif %}">{{ link.label }}<span aria-hidden="true"> ↗</span></a>{% endfor %}
+    </div>
+  </div>
+</article>

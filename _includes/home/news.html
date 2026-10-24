@@ -1,0 +1,12 @@
+<section class="home-section home-news" id="news" aria-labelledby="news-title">
+  <div class="home-section-heading"><h2 id="news-title">Recent news</h2></div>
+  <ul class="home-news-list">
+    {% for item in site.data.home_news limit:3 %}<li><span class="home-news-date">{{ item.date }}</span><div>{{ item.text }}</div></li>{% endfor %}
+  </ul>
+  <details class="home-news-archive">
+    <summary>Earlier updates <span aria-hidden="true">+</span></summary>
+    <ul class="home-news-list">
+      {% for item in site.data.home_news offset:3 %}<li><span class="home-news-date">{{ item.date }}</span><div>{{ item.text }}</div></li>{% endfor %}
+    </ul>
+  </details>
+</section>

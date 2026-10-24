@@ -1,0 +1,15 @@
+<aside class="home-profile" aria-label="Profile and contact">
+  <img class="home-portrait" src="{{ '/images/home/profile.webp' | relative_url }}" alt="Zicheng Duan" width="600" height="600" fetchpriority="high">
+  <div class="home-profile-info">
+    <p class="home-profile-name">Zicheng Duan <span lang="zh">段子成</span></p>
+    <p class="home-profile-role">Ph.D. student · Computer Science<br>AIML, University of Adelaide</p>
+    <p class="home-location"><span aria-hidden="true">↗</span> Adelaide, Australia</p>
+    <div class="home-contact-links">
+      <a class="home-email" href="mailto:{{ site.author.email }}">Email me <span aria-hidden="true">↗</span></a>
+      <a href="{{ site.author.cv | relative_url }}">Curriculum vitae <span aria-hidden="true">↗</span></a>
+      <a href="{{ site.author.googlescholar }}">Google Scholar <span aria-hidden="true">↗</span></a>
+      <a href="https://github.com/{{ site.author.github }}">GitHub <span aria-hidden="true">↗</span></a>
+      <a href="https://www.linkedin.com/in/{{ site.author.linkedin }}/">LinkedIn <span aria-hidden="true">↗</span></a>
+    </div>
+  </div>
+</aside>
