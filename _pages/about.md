@@ -7,21 +7,14 @@ redirect_from:
   - /about.html
 ---
 
-I am a third-year Ph.D. student in Computer Science at the [Australian Institute for Machine Learning (AIML), University of Adelaide](https://www.adelaide.edu.au/aiml/), fortunate to be supervised by [Prof. Lingqiao Liu](https://scholar.google.com/citations?user=Y2xu62UAAAAJ&hl=en) and [Dr. Xinyu Zhang](https://zhangxinyu-xyz.github.io/). Before that, I completed my Master's degree in Machine Learning and Computer Vision at the [Australian National University](https://www.anu.edu.au/) where I worked on multi-camera detection problems advised by [Prof. Liang Zheng](https://scholar.google.com/citations?hl=en&user=vNHqr3oAAAAJ&view_op=list_works&sortby=pubdate). My current research focuses on Generative World Models, 3D Generation, and Example-based Content Generation. I am currently doing a research internship at Alibaba Token Hub, working closely with [Dr. Xinlong Wang](https://scholar.google.com/citations?user=DPz0DjYAAAAJ&hl=zh-CN) and [Fan Zhang](https://scholar.google.com/citations?user=VsJ39HMAAAAJ&hl=en).
+I am a final-year Ph.D. student in Computer Science at the [Australian Institute for Machine Learning (AIML), University of Adelaide](https://www.adelaide.edu.au/aiml/), supervised by [Prof. Lingqiao Liu](https://scholar.google.com/citations?user=Y2xu62UAAAAJ&hl=en) and [Dr. Xinyu Zhang](https://zhangxinyu-xyz.github.io/). Before that, I completed my Master's degree at the [Australian National University](https://www.anu.edu.au/), where I worked on multi-camera detection under the supervision of [Prof. Liang Zheng](https://scholar.google.com/citations?hl=en&user=vNHqr3oAAAAJ&view_op=list_works&sortby=pubdate). My current research focuses on Video Foundation Models and Generative World Models. I am also a research intern at Alibaba Token Foundry, working closely with [Dr. Xinlong Wang](https://scholar.google.com/citations?user=DPz0DjYAAAAJ&hl=zh-CN). I am on the job market for Fall 2026 (expected to graduate in early 2027) — feel free to reach out!
 
-<p style="color: #d40000; font-weight: bold; font-size: 1.15em; margin-top: 1.2em; margin-bottom: 0.2em;">I am on the job market for 2026 Fall (expected to graduate in early 2027) — feel free to reach out!</p>
 <p style="color: #d40000; font-weight: bold; font-size: 1.15em; margin-top: 0; margin-bottom: 0;">我正在参加 2026 年秋招,预计于 2027 年上半年毕业,欢迎联系!</p>
 
-<h3 style="margin-top: 1.6em; margin-bottom: 0.6em; font-size: 1.25em;">Research Vision</h3>
+<h3 style="margin-top: 1.6em; margin-bottom: 0.6em; font-size: 1.25em;">Research Interests</h3>
 
 <div style="border-left: 3px solid #2a7ae2; background: #f6f8fa; padding: 14px 18px; border-radius: 4px; margin-bottom: 1.2em;">
-My long-term goal is to build <strong>controllable, consistent, and efficient world models</strong> that maintain:
-<ul style="margin-top: 0.5em; margin-bottom: 0;">
-  <li>Faithful world state representations — spanning video frames, 3D structures, semantic interpretations, and high-dimensional embeddings</li>
-  <li>Rich controllability beyond simple text prompts — enabling precise manipulation of world dynamics</li>
-  <li>Long-term consistency across all modalities and dimensions</li>
-  <li>Efficient state management for scalable simulation</li>
-</ul>
+I am currently interested in how visual generation can work with language-driven intelligence to create <strong>realistic, interactive virtual worlds</strong>, with my current research focusing on video world models, video foundation models, and reinforcement learning for generative models.
 </div>
 
 <div style="margin-top: 1.5em;"></div>
@@ -29,7 +22,7 @@ My long-term goal is to build <strong>controllable, consistent, and efficient wo
 News
 ======
 - **[Jun 2026]** LiveWorld is accepted to ECCV 2026.
-- **[May 2026]** I have joined <a href="https://baike.baidu.com/item/ATH%E4%BA%8B%E4%B8%9A%E7%BE%A4/67518582?fr=aladdin">Alibaba Group - Alibaba Token Hub</a> as a full-time research intern, focusing on generative world modeling.
+- **[May 2026]** I have joined <a href="https://baike.baidu.com/item/ATH%E4%BA%8B%E4%B8%9A%E7%BE%A4/67518582?fr=aladdin">Alibaba Group - Alibaba Token Foundry</a> as a full-time research intern, focusing on generative world modeling.
 - **[Mar 2026]** New preprint: <a href="https://arxiv.org/abs/2603.07145">LiveWorld - Simulating Out-of-Sight Dynamics in Generative Video World Models</a>.
 - **[Feb 2026]** Three papers accepted to CVPR 2026.
 - **[Nov 2025]** Invited talk at <a href="https://zhangxinyu-xyz.github.io/vgm-dicta2025/">DICTA 2025 workshop</a> on Generative World Models.
@@ -47,6 +40,7 @@ Selected Publications
   <div style="min-width: 220px; max-width: 220px;"><img src="/images/liveworld.jpg" style="width: 100%; border-radius: 3px; border: 1px solid #eee;"></div>
   <div>
     <strong>LiveWorld: Simulating Out-of-Sight Dynamics in Generative Video World Models</strong><br>
+    🔥 The first to formulate the <strong><u>decoupling</u></strong> of <strong><u>world state maintenance</u></strong> and <strong><u>observation rendering</u></strong> in generative video world models!<br>
     <span style="color: #000; font-weight: 700;">Zicheng Duan*</span>, Jiatong Xia*, Zeyu Zhang*, Wenbo Zhang, Gengze Zhou,<br>Chenhui Gou, Yefei He, Feng Chen, Xinyu Zhang, Lingqiao Liu<br>
     <em>ECCV 2026</em><br>
     [<a href="/pages/LiveWorld/index.html">Demo Page</a> / <a href="https://arxiv.org/abs/2603.07145">Paper</a> / <a href="https://github.com/ZichengDuan/LiveWorld">Code</a>]
@@ -109,9 +103,30 @@ Selected Publications
 <summary style="cursor: pointer; font-size: 1.2em; font-weight: 700; margin-top: 24px; margin-bottom: 16px; padding: 10px 0; color: #494e52; border-top: 1px solid #ddd;">All Publications (click to expand)</summary>
 
 <div style="display: flex; gap: 12px; align-items: center; margin-bottom: 12px; font-size: 0.88em; line-height: 1.45; margin-top: 16px;">
+  <div style="min-width: 220px; max-width: 220px;"><img src="/images/terravis-taxonomy.jpg" alt="TerraVis taxonomy of world-consistency violations" loading="lazy" style="width: 100%; border-radius: 3px; border: 1px solid #eee;"></div>
+  <div>
+    <strong>TerraVis: Towards Evaluation of World-Grounded Visual Consistency in Text-to-Image Generation via MLLM Workflows</strong><br>
+    Shuai Fu, Jing Gu, Jian Zhou, <span style="color: #000; font-weight: 700;">Zicheng Duan</span>, Gengze Zhou, Qi Wu<br>
+    <em>NeurIPS 2026 (Evaluations and Datasets Track)</em><br>
+    [<a href="https://shyfoo.github.io/TerraVis-web/">Demo Page</a> / <a href="https://arxiv.org/abs/2610.02959">Paper</a> / <a href="https://github.com/ShyFoo/TerraVis">Code</a> / <a href="https://huggingface.co/datasets/ShyFoo/TerraVis-Annotations">Dataset</a>]
+  </div>
+</div>
+
+<div style="display: flex; gap: 12px; align-items: center; margin-bottom: 12px; font-size: 0.88em; line-height: 1.45;">
+  <div style="min-width: 220px; max-width: 220px;"><img src="/images/latent-spatial-memory.png" alt="Latent spatial memory compared with RGB point-cloud memory" loading="lazy" style="width: 100%; border-radius: 3px; border: 1px solid #eee;"></div>
+  <div>
+    <strong>Latent Spatial Memory for Video World Models</strong><br>
+    Weijie Wang*, Haoyu Zhao*, Yifan Yang, Feng Chen, Zeyu Zhang, Yefei He, <span style="color: #000; font-weight: 700;">Zicheng Duan</span>, Donny Y. Chen, Yuqing Yang, Bohan Zhuang<br>
+    <em>arXiv preprint (2026)</em><br>
+    [<a href="https://microsoft.github.io/LatentSpatialMemory/">Demo Page</a> / <a href="https://arxiv.org/abs/2606.09828">Paper</a> / <a href="https://github.com/microsoft/LatentSpatialMemory">Code</a>]
+  </div>
+</div>
+
+<div style="display: flex; gap: 12px; align-items: center; margin-bottom: 12px; font-size: 0.88em; line-height: 1.45; margin-top: 16px;">
   <div style="min-width: 220px; max-width: 220px;"><img src="/images/liveworld.jpg" style="width: 100%; border-radius: 3px; border: 1px solid #eee;"></div>
   <div>
     <strong>LiveWorld: Simulating Out-of-Sight Dynamics in Generative Video World Models</strong><br>
+    🔥 The first to formulate the <strong><u>decoupling</u></strong> of <strong><u>world state maintenance</u></strong> and <strong><u>observation rendering</u></strong> in generative video world models!<br>
     <span style="color: #000; font-weight: 700;">Zicheng Duan*</span>, Jiatong Xia*, Zeyu Zhang*, Wenbo Zhang, Gengze Zhou,<br>Chenhui Gou, Yefei He, Feng Chen, Xinyu Zhang, Lingqiao Liu<br>
     <em>ECCV 2026</em><br>
     [<a href="/pages/LiveWorld/index.html">Demo Page</a> / <a href="https://arxiv.org/abs/2603.07145">Paper</a> / <a href="https://github.com/ZichengDuan/LiveWorld">Code</a>]
@@ -229,6 +244,51 @@ Selected Publications
 </div>
 
 </details>
+
+<div style="margin-top: 4em;"></div>
+
+Internships
+======
+
+<div style="display: flex; gap: 20px; align-items: flex-start; margin-bottom: 24px; font-size: 0.88em; line-height: 1.5;">
+  <img src="/images/logos/alibaba.webp" alt="Alibaba logo" width="72" height="72" loading="lazy" style="flex: 0 0 72px; object-fit: contain;">
+  <div style="min-width: 0;">
+    <strong>Alibaba Token Foundry</strong><br>
+    May 2026 – Present · Beijing, China<br>
+    Mentor: <a href="https://scholar.google.com/citations?user=DPz0DjYAAAAJ&amp;hl=zh-CN">Dr. Xinlong Wang</a><br>
+    Topic: Video foundation models and video world models.
+  </div>
+</div>
+
+<div style="display: flex; gap: 20px; align-items: flex-start; margin-bottom: 24px; font-size: 0.88em; line-height: 1.5;">
+  <img src="/images/logos/alibaba.webp" alt="Alibaba logo" width="72" height="72" loading="lazy" style="flex: 0 0 72px; object-fit: contain;">
+  <div style="min-width: 0;">
+    <strong>Alibaba DAMO Academy</strong><br>
+    Jan 2025 – Apr 2025 · Hangzhou, China<br>
+    Mentor: <a href="https://scholar.google.com/citations?hl=en&amp;user=7QvWnzMAAAAJ&amp;view_op=list_works&amp;sortby=pubdate">Dr. Hao Luo</a><br>
+    Topic: Multimodal image generation and editing.
+  </div>
+</div>
+
+<div style="display: flex; gap: 20px; align-items: flex-start; margin-bottom: 24px; font-size: 0.88em; line-height: 1.5;">
+  <img src="/images/logos/leonardo.jpeg" alt="Leonardo.AI logo" width="72" height="72" loading="lazy" style="flex: 0 0 72px; object-fit: contain;">
+  <div style="min-width: 0;">
+    <strong>Leonardo.AI / Canva</strong><br>
+    Feb 2024 – Jul 2024 · Sydney, Australia<br>
+    Mentors: <a href="https://www.ethansmith2000.com/">Mr. Ethan Smith</a>, <a href="https://www.linkedin.com/in/martin-bell-sydney/?originalSubdomain=au">Prof. Martin Bell</a><br>
+    Topic: Controllable image generation.
+  </div>
+</div>
+
+<div style="display: flex; gap: 20px; align-items: flex-start; margin-bottom: 24px; font-size: 0.88em; line-height: 1.5;">
+  <img src="/images/logos/casia.jpeg" alt="Institute of Automation, Chinese Academy of Sciences logo" width="72" height="72" loading="lazy" style="flex: 0 0 72px; object-fit: contain;">
+  <div style="min-width: 0;">
+    <strong>Institute of Automation, Chinese Academy of Sciences</strong><br>
+    Dec 2020 – Dec 2021 · Beijing, China<br>
+    Mentors: <a href="https://scholar.google.com/citations?hl=zh-CN&amp;user=kalE5UIAAAAJ&amp;view_op=list_works&amp;sortby=pubdate">Prof. Haoran Li</a>, <a href="https://scholar.google.com/citations?user=RxvYlNQAAAAJ&amp;hl=en">Prof. Dongbin Zhao</a><br>
+    Topic: Multi-view 3D understanding systems for object detection.
+  </div>
+</div>
 
 <div style="margin-top: 4em;"></div>
 
