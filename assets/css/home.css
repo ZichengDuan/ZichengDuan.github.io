@@ -109,12 +109,12 @@ html[data-theme="dark"] .home-theme-toggle .home-moon { display: none; }
 .home-availability p:first-child { font-weight: 550; color: var(--home-accent); }
 .home-availability p[lang="zh"] { color: var(--home-muted); font-size: var(--home-body-size); margin-top: 3px; }
 .home-interests { margin-top: 28px; padding: 20px 24px; border-left: 2px solid var(--home-accent); background: var(--home-surface); border-radius: 0 4px 4px 0; }
-.homepage .home-interests h2 { font: 400 30px/1.2 "Newsreader", Georgia, "Times New Roman", serif; letter-spacing: -.7px; color: var(--home-accent); margin-bottom: 8px; }
+.homepage .home-interests h2 { font: 700 30px/1.2 "Newsreader", Georgia, "Times New Roman", serif; letter-spacing: -.7px; color: var(--home-accent); margin-bottom: 8px; }
 .home-interests p { font-size: var(--home-body-size); line-height: 1.85; }
 .home-interests strong { font-weight: 600; }
 .home-section { margin-top: 52px; }
 .home-section-heading { display: flex; flex-wrap: wrap; align-items: baseline; justify-content: space-between; gap: 16px; padding-bottom: 17px; border-bottom: 1px solid var(--home-line); margin-bottom: 22px; }
-.homepage .home-section-heading h2 { font: 400 30px/1.2 "Newsreader", Georgia, "Times New Roman", serif; letter-spacing: -.7px; }
+.homepage .home-section-heading h2 { font: 700 30px/1.2 "Newsreader", Georgia, "Times New Roman", serif; letter-spacing: -.7px; }
 .homepage .home-section-link { font-size: var(--home-body-size); white-space: nowrap; }
 .home-section-link span { margin-left: 6px; }
 .homepage .home-news-list { list-style: none; padding: 0; }

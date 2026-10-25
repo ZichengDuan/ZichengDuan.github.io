@@ -33,7 +33,7 @@ My current research focuses on Video Foundation Models and Generative World Mode
 
 <section class="home-interests" aria-labelledby="interests-title">
   <h2 id="interests-title">Research interests</h2>
-  <p>I am currently interested in how visual generation can work with language-driven intelligence to create <strong>realistic, interactive virtual worlds</strong>, with my current research focusing on video world/foundation models, reinforcement learning for generative models, and code-to-anything.</p>
+  <p>Ultimately, I hope to see <strong>intelligent systems capable of managing and utilizing unbounded, multimodal context</strong>. My current research focuses on enhancing <strong>long-horizon generation in video foundation models</strong> and managing <strong>context and world states in generative world models</strong>, through generative modeling, reinforcement learning, and agentic approaches.</p>
 </section>
 
 {% include home/news.html %}

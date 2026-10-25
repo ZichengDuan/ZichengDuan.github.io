@@ -78,7 +78,8 @@
   links:
   - label: Paper
     url: https://arxiv.org/abs/2508.15360
-  image: /images/teaser_large.png
+  # Figure 2, original paper (CC BY 4.0): https://arxiv.org/html/2508.15360v1#S2.F2
+  image: /images/video-llms-knockout.png
   id: video-llms
   preview: /images/home/video-llms.webp
 - title: 'EZIGen: Enhancing zero-shot personalized image generation with precise subject encoding and decoupled guidance'
